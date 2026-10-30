@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipeline>
+  <info>
+    <name>extract_lot_receipt</name>
+    <name_sync_with_filename>Y</name_sync_with_filename>
+    <description>Lots of live birds received: rows of ERP table RECEBIMENTO_LOTE (Oracle) changed since the last load, into stg.lot_receipt (PostgreSQL)</description>
+    <extended_description/>
+    <pipeline_version/>
+    <pipeline_type>Normal</pipeline_type>
+    <parameters>
+    </parameters>
+    <capture_transform_performance>N</capture_transform_performance>
+    <transform_performance_capturing_delay>1000</transform_performance_capturing_delay>
+    <transform_performance_capturing_size_limit>100</transform_performance_capturing_size_limit>
+    <created_user>-</created_user>
+    <created_date>2026/10/29 22:00:00.000</created_date>
+    <modified_user>-</modified_user>
+    <modified_date>2026/10/29 22:00:00.000</modified_date>
+  </info>
+  <notepads>
+  </notepads>
+  <order>
+    <hop>
+      <from>Read watermark (DW)</from>
+      <to>Read changed RECEBIMENTO_LOTE (ERP)</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Read changed RECEBIMENTO_LOTE (ERP)</from>
+      <to>Write stg.lot_receipt</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <transform>
+    <name>Read watermark (DW)</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>dw</connection>
+    <sql>SELECT last_updated_at FROM etl.watermark WHERE source_table = 'RECEBIMENTO_LOTE'</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <attributes/>
+    <GUI>
+      <xloc>96</xloc>
+      <yloc>96</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>Read changed RECEBIMENTO_LOTE (ERP)</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>erp</connection>
+    <sql>SELECT NR_LOTE                                                      AS "lot_number",
+       COD_FORNECEDOR                                               AS "supplier_code",
+       COD_UNIDADE                                                  AS "plant_code",
+       DT_PREVISTA                                                  AS "scheduled_at",
+       DT_CHEGADA                                                   AS "arrived_at",
+       STATUS                                                       AS "status",
+       ROUND((DT_CHEGADA - DT_PREVISTA) * 1440)                     AS "delay_minutes",
+       QT_AVES                                                      AS "birds",
+       PESO_VIVO_KG                                                 AS "live_weight_kg",
+       QT_MORTAS_TRANSPORTE                                         AS "doa_birds",
+       PESO_CONDENADO_KG                                            AS "condemned_kg",
+       TO_NUMBER(TO_CHAR(NVL(DT_CHEGADA, DT_PREVISTA), 'YYYYMMDD')) AS "date_key",
+       DT_ATUALIZACAO                                               AS "source_updated_at"
+FROM RECEBIMENTO_LOTE
+WHERE DT_ATUALIZACAO &gt; CAST(? AS DATE) - 5 / 1440</sql>
+    <limit>0</limit>
+    <lookup>Read watermark (DW)</lookup>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <attributes/>
+    <GUI>
+      <xloc>320</xloc>
+      <yloc>96</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>Write stg.lot_receipt</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <commit>5000</commit>
+    <connection>dw</connection>
+    <fields>
+    </fields>
+    <return_field/>
+    <ignore_errors>N</ignore_errors>
+    <only_when_have_rows>N</only_when_have_rows>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <return_keys>N</return_keys>
+    <schema>stg</schema>
+    <specify_fields>N</specify_fields>
+    <table>lot_receipt</table>
+    <tablename_field/>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_in_table>Y</tablename_in_table>
+    <truncate>Y</truncate>
+    <use_batch>Y</use_batch>
+    <attributes/>
+    <GUI>
+      <xloc>560</xloc>
+      <yloc>96</yloc>
+    </GUI>
+  </transform>
+  <transform_error_handling>
+  </transform_error_handling>
+  <attributes/>
+</pipeline>

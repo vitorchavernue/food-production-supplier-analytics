@@ -1,0 +1,10 @@
+product_key,product_code,description,category,standard_yield
+-1,-1,Unknown,Unknown,0.0000
+1,1001,Frango inteiro congelado,INTEIRO,0.2600
+2,1002,Peito com osso,CORTE,0.1200
+3,1003,Filé de peito,CORTE,0.1000
+4,1004,Coxa e sobrecoxa,CORTE,0.1000
+5,1005,Asa,CORTE,0.0500
+6,1006,"Miúdos (coração, fígado, moela)",MIUDO,0.0450
+7,1007,Linguiça de frango,PROCESSADO,0.0350
+8,1008,Empanado de frango,PROCESSADO,0.0250

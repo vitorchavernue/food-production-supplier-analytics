@@ -1,0 +1,1958 @@
+stop_number,date_key,plant_key,line_number,minutes,reason_group
+70001,20250101,2,3,17,No birds available
+70002,20250101,4,2,85,Product changeover
+70003,20250102,1,2,41,Preventive maintenance
+70004,20250102,2,2,30,No birds available
+70005,20250102,3,2,32,No birds available
+70006,20250103,1,3,56,Product changeover
+70007,20250104,3,2,24,No birds available
+70008,20250104,4,1,33,Preventive maintenance
+70009,20250105,4,1,106,Cleaning
+70010,20250106,2,2,35,Electrical failure
+70011,20250106,3,3,31,No birds available
+70012,20250107,2,1,62,No birds available
+70013,20250107,3,1,23,Cleaning
+70014,20250107,4,1,21,Product changeover
+70015,20250107,4,2,69,Cleaning
+70016,20250108,1,1,34,No birds available
+70017,20250108,4,3,41,Product changeover
+70018,20250109,2,1,28,Corrective maintenance
+70019,20250109,3,3,46,Preventive maintenance
+70020,20250109,4,2,91,Cleaning
+70021,20250110,3,3,47,Electrical failure
+70022,20250110,4,2,62,Cleaning
+70023,20250111,2,1,71,Corrective maintenance
+70024,20250112,4,1,100,No birds available
+70025,20250113,4,2,44,Preventive maintenance
+70026,20250113,4,3,21,Product changeover
+70027,20250114,2,1,14,Preventive maintenance
+70028,20250114,4,1,21,Product changeover
+70029,20250114,4,2,17,No birds available
+70030,20250114,4,3,39,Cleaning
+70031,20250115,4,2,59,Preventive maintenance
+70032,20250116,1,1,75,Electrical failure
+70033,20250116,2,3,54,Cleaning
+70034,20250116,4,3,44,Product changeover
+70035,20250117,1,3,15,No birds available
+70036,20250117,3,1,17,Preventive maintenance
+70037,20250117,3,2,38,Product changeover
+70038,20250117,3,3,25,Corrective maintenance
+70039,20250117,4,2,23,Product changeover
+70040,20250119,1,3,56,Electrical failure
+70041,20250119,3,3,68,Cleaning
+70042,20250119,4,1,22,Product changeover
+70043,20250120,1,1,16,Preventive maintenance
+70044,20250120,1,3,25,No birds available
+70045,20250120,2,1,16,Electrical failure
+70046,20250120,2,2,36,Preventive maintenance
+70047,20250120,3,1,86,Preventive maintenance
+70048,20250120,3,3,142,Preventive maintenance
+70049,20250120,4,2,42,No birds available
+70050,20250120,4,3,17,Preventive maintenance
+70051,20250121,2,2,47,Product changeover
+70052,20250121,4,2,15,Preventive maintenance
+70053,20250121,4,3,24,Electrical failure
+70054,20250122,1,3,46,Product changeover
+70055,20250122,2,2,24,No birds available
+70056,20250122,3,3,60,Product changeover
+70057,20250123,2,2,61,Electrical failure
+70058,20250123,3,2,46,Electrical failure
+70059,20250123,3,3,44,No birds available
+70060,20250123,4,3,77,Corrective maintenance
+70061,20250124,1,2,20,Product changeover
+70062,20250125,2,2,37,Preventive maintenance
+70063,20250125,4,1,18,Cleaning
+70064,20250126,2,3,61,Preventive maintenance
+70065,20250126,4,3,39,Cleaning
+70066,20250127,1,1,65,Product changeover
+70067,20250127,2,2,105,Product changeover
+70068,20250127,3,2,31,Cleaning
+70069,20250127,4,3,83,Product changeover
+70070,20250128,1,3,91,Corrective maintenance
+70071,20250128,3,2,16,No birds available
+70072,20250129,3,2,33,Cleaning
+70073,20250130,3,2,56,Cleaning
+70074,20250131,1,2,21,Preventive maintenance
+70075,20250201,1,1,43,Electrical failure
+70076,20250201,2,1,34,Cleaning
+70077,20250201,2,2,28,Product changeover
+70078,20250201,2,3,36,Product changeover
+70079,20250201,3,2,24,Electrical failure
+70080,20250202,3,1,63,No birds available
+70081,20250202,3,2,30,Corrective maintenance
+70082,20250203,1,2,23,Product changeover
+70083,20250203,2,3,69,Cleaning
+70084,20250203,3,2,21,Electrical failure
+70085,20250203,3,3,31,Product changeover
+70086,20250204,1,1,33,Cleaning
+70087,20250204,1,2,28,Electrical failure
+70088,20250204,4,1,16,Cleaning
+70089,20250204,4,3,60,Product changeover
+70090,20250205,3,1,30,Preventive maintenance
+70091,20250205,3,2,34,Electrical failure
+70092,20250205,3,3,20,Preventive maintenance
+70093,20250206,1,1,31,No birds available
+70094,20250206,3,1,32,No birds available
+70095,20250206,3,2,33,Corrective maintenance
+70096,20250207,1,2,115,Product changeover
+70097,20250207,1,3,70,Preventive maintenance
+70098,20250207,3,2,22,Corrective maintenance
+70099,20250207,4,1,14,Cleaning
+70100,20250208,1,2,17,Electrical failure
+70101,20250208,1,3,29,Product changeover
+70102,20250208,2,2,56,Preventive maintenance
+70103,20250209,1,3,33,Electrical failure
+70104,20250209,2,2,177,Electrical failure
+70105,20250209,3,1,55,Cleaning
+70106,20250209,4,2,21,No birds available
+70107,20250209,4,3,55,Preventive maintenance
+70108,20250210,1,1,69,Preventive maintenance
+70109,20250210,1,2,29,Cleaning
+70110,20250210,2,1,14,Preventive maintenance
+70111,20250210,4,1,48,Electrical failure
+70112,20250211,4,3,11,Preventive maintenance
+70113,20250212,1,1,25,Cleaning
+70114,20250212,2,3,132,Preventive maintenance
+70115,20250212,4,1,23,Product changeover
+70116,20250213,2,2,26,Cleaning
+70117,20250214,1,3,76,No birds available
+70118,20250214,2,3,17,Corrective maintenance
+70119,20250215,3,1,15,Product changeover
+70120,20250215,4,1,55,No birds available
+70121,20250215,4,2,37,Cleaning
+70122,20250216,1,1,24,Preventive maintenance
+70123,20250216,1,2,78,No birds available
+70124,20250216,4,3,29,Cleaning
+70125,20250217,1,1,20,Preventive maintenance
+70126,20250217,1,2,104,Cleaning
+70127,20250217,4,1,57,Corrective maintenance
+70128,20250218,1,2,24,Corrective maintenance
+70129,20250218,1,3,37,No birds available
+70130,20250218,2,3,135,Cleaning
+70131,20250218,4,2,28,Product changeover
+70132,20250218,4,3,21,Corrective maintenance
+70133,20250221,1,2,49,Product changeover
+70134,20250221,2,1,31,Preventive maintenance
+70135,20250221,2,3,39,Cleaning
+70136,20250221,3,2,15,Cleaning
+70137,20250221,4,3,56,Product changeover
+70138,20250222,2,1,24,Corrective maintenance
+70139,20250222,2,2,32,No birds available
+70140,20250222,3,1,55,Electrical failure
+70141,20250222,3,2,31,Electrical failure
+70142,20250222,4,3,19,No birds available
+70143,20250223,1,2,33,Cleaning
+70144,20250223,2,3,23,Cleaning
+70145,20250223,3,1,61,Cleaning
+70146,20250224,1,1,25,No birds available
+70147,20250224,2,1,15,Preventive maintenance
+70148,20250224,3,1,88,Corrective maintenance
+70149,20250224,3,2,12,No birds available
+70150,20250224,3,3,40,Product changeover
+70151,20250225,1,1,47,No birds available
+70152,20250225,4,3,44,Cleaning
+70153,20250226,2,2,61,Preventive maintenance
+70154,20250226,3,3,49,Corrective maintenance
+70155,20250227,2,2,23,No birds available
+70156,20250227,3,2,13,Product changeover
+70157,20250228,3,3,30,Corrective maintenance
+70158,20250228,4,2,38,Preventive maintenance
+70159,20250301,2,2,89,Preventive maintenance
+70160,20250301,2,3,15,Corrective maintenance
+70161,20250301,3,3,72,Preventive maintenance
+70162,20250301,4,1,42,Product changeover
+70163,20250302,3,3,48,Product changeover
+70164,20250303,1,2,49,Corrective maintenance
+70165,20250303,2,2,20,Corrective maintenance
+70166,20250303,3,1,36,Product changeover
+70167,20250304,3,2,38,No birds available
+70168,20250304,3,3,59,Product changeover
+70169,20250304,4,3,41,Cleaning
+70170,20250305,3,2,42,Corrective maintenance
+70171,20250305,4,2,16,Cleaning
+70172,20250306,2,1,52,Electrical failure
+70173,20250306,2,2,72,Corrective maintenance
+70174,20250306,4,2,52,No birds available
+70175,20250306,4,3,101,Preventive maintenance
+70176,20250307,1,1,25,Preventive maintenance
+70177,20250307,1,2,21,Corrective maintenance
+70178,20250308,1,2,22,Cleaning
+70179,20250308,2,2,54,Preventive maintenance
+70180,20250308,3,2,326,Product changeover
+70181,20250308,3,3,29,Cleaning
+70182,20250308,4,1,25,Product changeover
+70183,20250309,1,1,17,Electrical failure
+70184,20250309,2,1,44,Product changeover
+70185,20250309,3,1,38,Electrical failure
+70186,20250309,4,2,96,Preventive maintenance
+70187,20250310,1,3,35,Product changeover
+70188,20250310,2,1,137,Electrical failure
+70189,20250310,3,1,21,Cleaning
+70190,20250310,4,1,22,No birds available
+70191,20250312,3,2,31,Electrical failure
+70192,20250312,4,1,28,No birds available
+70193,20250312,4,3,30,Preventive maintenance
+70194,20250313,1,2,35,Cleaning
+70195,20250313,2,2,55,No birds available
+70196,20250313,3,2,37,Preventive maintenance
+70197,20250314,1,1,139,Product changeover
+70198,20250314,1,2,29,Cleaning
+70199,20250314,2,1,76,Preventive maintenance
+70200,20250314,2,2,43,Corrective maintenance
+70201,20250314,3,1,71,Electrical failure
+70202,20250314,3,2,75,Cleaning
+70203,20250314,4,1,40,No birds available
+70204,20250314,4,3,38,Cleaning
+70205,20250315,1,3,26,Cleaning
+70206,20250315,4,1,144,Cleaning
+70207,20250315,4,3,47,Cleaning
+70208,20250316,2,2,137,Product changeover
+70209,20250316,3,2,62,Electrical failure
+70210,20250317,1,2,95,Cleaning
+70211,20250317,1,3,32,Preventive maintenance
+70212,20250317,2,1,23,Corrective maintenance
+70213,20250317,2,3,19,Cleaning
+70214,20250317,3,1,31,No birds available
+70215,20250318,2,3,21,Corrective maintenance
+70216,20250319,1,2,34,Product changeover
+70217,20250319,3,1,18,Product changeover
+70218,20250319,4,1,37,No birds available
+70219,20250319,4,3,22,Electrical failure
+70220,20250320,1,2,36,Preventive maintenance
+70221,20250320,2,1,37,Electrical failure
+70222,20250320,4,2,21,Cleaning
+70223,20250321,1,1,31,Cleaning
+70224,20250321,2,3,25,Product changeover
+70225,20250321,3,3,55,Preventive maintenance
+70226,20250321,4,2,19,Corrective maintenance
+70227,20250322,1,2,28,Cleaning
+70228,20250322,3,3,29,Preventive maintenance
+70229,20250322,4,1,45,Cleaning
+70230,20250324,2,1,68,Preventive maintenance
+70231,20250324,4,1,130,Corrective maintenance
+70232,20250325,2,3,25,Electrical failure
+70233,20250325,3,1,86,Cleaning
+70234,20250325,4,3,49,No birds available
+70235,20250326,2,1,54,Product changeover
+70236,20250326,2,2,23,No birds available
+70237,20250326,2,3,52,Product changeover
+70238,20250326,3,2,46,Corrective maintenance
+70239,20250326,3,3,27,Product changeover
+70240,20250326,4,1,62,Product changeover
+70241,20250326,4,2,40,No birds available
+70242,20250327,1,2,83,No birds available
+70243,20250327,2,2,44,Electrical failure
+70244,20250327,3,2,15,Electrical failure
+70245,20250327,3,3,25,Electrical failure
+70246,20250328,2,1,20,Cleaning
+70247,20250329,1,1,28,Corrective maintenance
+70248,20250329,3,1,80,Cleaning
+70249,20250330,3,3,53,Electrical failure
+70250,20250331,1,2,69,No birds available
+70251,20250331,2,2,26,Electrical failure
+70252,20250331,2,3,68,Product changeover
+70253,20250331,3,1,25,Product changeover
+70254,20250331,4,1,16,Preventive maintenance
+70255,20250331,4,3,68,Product changeover
+70256,20250401,1,3,41,Corrective maintenance
+70257,20250401,3,2,24,Cleaning
+70258,20250401,4,1,54,Corrective maintenance
+70259,20250401,4,2,30,Cleaning
+70260,20250402,1,1,27,Corrective maintenance
+70261,20250402,1,3,69,Corrective maintenance
+70262,20250402,3,2,32,Corrective maintenance
+70263,20250402,4,3,65,Product changeover
+70264,20250403,3,3,32,Cleaning
+70265,20250403,4,2,77,Electrical failure
+70266,20250404,3,2,45,Preventive maintenance
+70267,20250405,2,1,73,Preventive maintenance
+70268,20250405,4,3,34,Cleaning
+70269,20250406,1,1,49,Preventive maintenance
+70270,20250406,1,3,22,No birds available
+70271,20250406,4,3,49,No birds available
+70272,20250407,1,1,62,No birds available
+70273,20250407,4,1,75,Cleaning
+70274,20250408,1,2,15,Product changeover
+70275,20250408,1,3,62,Preventive maintenance
+70276,20250408,4,2,20,Electrical failure
+70277,20250408,4,3,49,Electrical failure
+70278,20250409,4,1,48,No birds available
+70279,20250409,4,2,93,Corrective maintenance
+70280,20250410,1,3,51,Product changeover
+70281,20250410,2,2,30,Cleaning
+70282,20250410,2,3,33,No birds available
+70283,20250410,4,1,26,Cleaning
+70284,20250411,1,1,17,Cleaning
+70285,20250411,4,3,14,Corrective maintenance
+70286,20250412,1,1,47,Cleaning
+70287,20250412,2,1,71,No birds available
+70288,20250412,4,3,46,No birds available
+70289,20250413,1,1,79,Electrical failure
+70290,20250413,3,2,24,Cleaning
+70291,20250413,3,3,197,Preventive maintenance
+70292,20250413,4,1,43,Cleaning
+70293,20250414,1,1,38,Preventive maintenance
+70294,20250414,1,2,50,Preventive maintenance
+70295,20250414,2,2,27,No birds available
+70296,20250414,3,1,11,Cleaning
+70297,20250414,4,1,45,Product changeover
+70298,20250415,1,1,27,Product changeover
+70299,20250416,1,2,34,Cleaning
+70300,20250416,2,2,57,Electrical failure
+70301,20250418,4,2,26,Electrical failure
+70302,20250419,2,1,103,Preventive maintenance
+70303,20250419,3,2,42,Electrical failure
+70304,20250419,4,3,53,Preventive maintenance
+70305,20250420,1,2,47,No birds available
+70306,20250420,2,3,43,Corrective maintenance
+70307,20250420,3,3,67,Corrective maintenance
+70308,20250420,4,2,27,No birds available
+70309,20250420,4,3,80,No birds available
+70310,20250421,1,2,19,Electrical failure
+70311,20250421,4,2,11,No birds available
+70312,20250422,2,2,12,No birds available
+70313,20250422,3,1,29,Cleaning
+70314,20250422,4,1,32,Electrical failure
+70315,20250422,4,2,30,Preventive maintenance
+70316,20250423,1,1,45,Corrective maintenance
+70317,20250423,2,1,43,Cleaning
+70318,20250423,3,1,101,No birds available
+70319,20250423,4,1,27,Preventive maintenance
+70320,20250424,2,3,88,Cleaning
+70321,20250424,3,2,9,Corrective maintenance
+70322,20250424,3,3,46,Product changeover
+70323,20250425,1,2,138,Corrective maintenance
+70324,20250425,3,2,82,Cleaning
+70325,20250425,3,3,34,Corrective maintenance
+70326,20250425,4,3,48,Electrical failure
+70327,20250426,1,3,37,Corrective maintenance
+70328,20250426,2,3,34,Corrective maintenance
+70329,20250426,4,1,29,Cleaning
+70331,20250427,3,3,67,Cleaning
+70332,20250427,4,3,12,Cleaning
+70333,20250428,2,2,10,Product changeover
+70334,20250428,3,2,25,No birds available
+70335,20250428,4,2,13,No birds available
+70336,20250429,1,3,89,Corrective maintenance
+70337,20250430,1,2,75,Cleaning
+70338,20250430,4,1,109,Cleaning
+70339,20250501,1,2,21,Product changeover
+70340,20250501,1,3,32,Product changeover
+70341,20250501,2,1,21,No birds available
+70342,20250501,3,2,103,Electrical failure
+70343,20250501,4,1,29,No birds available
+70344,20250502,3,1,26,Cleaning
+70345,20250502,3,2,103,Corrective maintenance
+70346,20250502,4,2,64,Preventive maintenance
+70347,20250503,1,2,59,Product changeover
+70348,20250503,2,2,37,Cleaning
+70349,20250503,3,1,50,Product changeover
+70350,20250503,4,2,33,Cleaning
+70351,20250504,1,2,33,Cleaning
+70352,20250504,2,1,99,Electrical failure
+70353,20250504,2,2,22,Product changeover
+70354,20250504,3,1,42,Electrical failure
+70355,20250504,3,2,24,Corrective maintenance
+70356,20250504,4,1,48,Preventive maintenance
+70357,20250505,4,1,33,Corrective maintenance
+70358,20250505,4,3,52,Product changeover
+70359,20250506,1,3,32,Cleaning
+70360,20250506,2,1,35,Electrical failure
+70361,20250506,2,2,46,No birds available
+70362,20250506,2,3,27,No birds available
+70363,20250506,4,2,45,No birds available
+70364,20250507,4,1,58,Corrective maintenance
+70365,20250508,1,3,15,Electrical failure
+70366,20250508,2,1,29,Cleaning
+70367,20250508,3,2,12,Cleaning
+70368,20250508,3,3,33,No birds available
+70369,20250508,4,2,81,Cleaning
+70370,20250510,1,3,24,Preventive maintenance
+70371,20250510,2,2,31,Cleaning
+70372,20250511,3,3,38,Electrical failure
+70373,20250511,4,2,57,Product changeover
+70374,20250512,1,3,52,Preventive maintenance
+70375,20250512,3,2,41,Product changeover
+70376,20250512,3,3,41,Preventive maintenance
+70377,20250513,1,2,30,Electrical failure
+70378,20250513,2,2,57,No birds available
+70379,20250513,3,1,53,No birds available
+70380,20250514,2,1,20,No birds available
+70381,20250514,3,3,16,No birds available
+70382,20250514,4,2,20,Cleaning
+70383,20250515,1,1,30,Preventive maintenance
+70384,20250515,2,1,37,Cleaning
+70385,20250515,4,2,25,Product changeover
+70386,20250516,2,3,52,Electrical failure
+70387,20250516,3,1,35,Product changeover
+70388,20250517,1,1,10,Cleaning
+70389,20250517,1,3,31,Preventive maintenance
+70390,20250517,2,1,16,No birds available
+70391,20250517,2,2,10,Electrical failure
+70392,20250518,1,2,49,Electrical failure
+70393,20250518,2,1,139,Cleaning
+70394,20250518,2,2,63,Cleaning
+70395,20250518,3,1,34,Electrical failure
+70396,20250518,3,3,19,Corrective maintenance
+70397,20250518,4,1,16,Cleaning
+70398,20250519,3,3,69,Product changeover
+70399,20250519,4,2,17,No birds available
+70400,20250521,3,3,30,Preventive maintenance
+70401,20250522,4,2,19,Cleaning
+70402,20250523,1,1,43,Product changeover
+70403,20250523,1,2,77,Preventive maintenance
+70404,20250523,2,1,47,Preventive maintenance
+70405,20250523,2,3,42,Product changeover
+70406,20250525,1,2,20,No birds available
+70407,20250525,2,2,38,No birds available
+70408,20250525,2,3,26,Product changeover
+70409,20250526,1,1,40,Corrective maintenance
+70410,20250526,2,3,65,No birds available
+70411,20250526,3,3,43,Preventive maintenance
+70412,20250527,1,3,26,Corrective maintenance
+70413,20250527,3,1,88,Product changeover
+70414,20250527,3,3,32,Cleaning
+70415,20250528,3,3,36,Electrical failure
+70416,20250529,1,3,57,Product changeover
+70417,20250530,1,2,36,Cleaning
+70418,20250530,2,1,65,Electrical failure
+70419,20250530,4,3,21,Cleaning
+70420,20250531,3,3,63,Corrective maintenance
+70421,20250601,3,1,36,Product changeover
+70422,20250603,2,1,56,Cleaning
+70423,20250603,2,3,34,Electrical failure
+70424,20250603,4,1,48,No birds available
+70425,20250603,4,2,58,No birds available
+70426,20250603,4,3,54,Corrective maintenance
+70427,20250604,1,1,35,No birds available
+70428,20250604,1,2,17,No birds available
+70429,20250604,2,2,13,Preventive maintenance
+70430,20250604,3,1,28,Product changeover
+70431,20250604,4,3,112,No birds available
+70432,20250605,1,1,27,Cleaning
+70433,20250605,4,1,27,Preventive maintenance
+70434,20250607,1,1,51,Cleaning
+70435,20250607,2,3,37,No birds available
+70436,20250608,1,1,104,Cleaning
+70437,20250608,2,1,55,No birds available
+70438,20250608,2,3,65,Product changeover
+70439,20250608,3,2,16,Electrical failure
+70440,20250608,4,1,67,No birds available
+70441,20250609,1,1,66,No birds available
+70443,20250609,3,2,10,Electrical failure
+70444,20250609,3,3,33,No birds available
+70445,20250610,2,2,15,Electrical failure
+70446,20250610,3,2,108,Electrical failure
+70447,20250611,2,3,30,No birds available
+70448,20250611,3,2,46,Electrical failure
+70449,20250612,1,3,59,Corrective maintenance
+70450,20250612,2,1,18,Preventive maintenance
+70451,20250612,2,2,21,Corrective maintenance
+70452,20250612,2,3,13,Preventive maintenance
+70453,20250612,3,2,29,No birds available
+70454,20250612,3,3,58,Product changeover
+70455,20250612,4,3,19,No birds available
+70456,20250613,1,2,60,Electrical failure
+70457,20250613,2,1,36,Cleaning
+70458,20250613,2,2,19,Cleaning
+70459,20250613,3,2,18,Cleaning
+70460,20250614,1,1,32,Product changeover
+70461,20250614,1,2,106,Cleaning
+70462,20250614,4,3,39,Corrective maintenance
+70463,20250615,1,2,58,Corrective maintenance
+70464,20250615,2,1,28,No birds available
+70465,20250615,3,1,69,Corrective maintenance
+70466,20250615,3,2,14,Product changeover
+70467,20250615,3,3,71,Electrical failure
+70468,20250615,4,2,39,Product changeover
+70469,20250616,1,1,37,Product changeover
+70470,20250616,2,1,27,No birds available
+70471,20250616,2,2,39,Product changeover
+70472,20250616,2,3,20,Preventive maintenance
+70473,20250617,1,3,54,Product changeover
+70474,20250617,3,1,40,Preventive maintenance
+70475,20250617,3,3,21,Cleaning
+70476,20250618,1,1,43,Electrical failure
+70477,20250618,2,3,21,Product changeover
+70478,20250618,3,1,98,Preventive maintenance
+70479,20250618,4,1,67,Cleaning
+70480,20250619,1,2,61,Corrective maintenance
+70481,20250619,2,2,20,Product changeover
+70482,20250619,3,1,34,Product changeover
+70483,20250619,3,3,31,No birds available
+70484,20250619,4,1,40,Preventive maintenance
+70485,20250619,4,3,69,Corrective maintenance
+70486,20250620,1,1,20,Electrical failure
+70487,20250620,1,2,16,No birds available
+70488,20250621,1,1,72,Cleaning
+70489,20250621,2,1,93,No birds available
+70490,20250622,3,1,110,Corrective maintenance
+70491,20250622,4,2,67,No birds available
+70492,20250623,1,1,27,Electrical failure
+70493,20250623,1,3,16,Cleaning
+70494,20250623,2,1,39,Product changeover
+70495,20250623,2,2,63,Cleaning
+70496,20250623,3,1,63,Electrical failure
+70497,20250623,3,3,32,Electrical failure
+70498,20250623,4,1,26,Corrective maintenance
+70499,20250623,4,2,46,No birds available
+70500,20250623,4,3,48,Electrical failure
+70501,20250624,1,3,26,Preventive maintenance
+70502,20250624,4,1,28,Corrective maintenance
+70503,20250625,1,1,13,Cleaning
+70504,20250625,1,3,23,Electrical failure
+70505,20250625,2,1,124,Preventive maintenance
+70506,20250625,2,3,40,Product changeover
+70507,20250625,3,1,19,Electrical failure
+70508,20250625,3,2,52,No birds available
+70509,20250625,3,3,48,Electrical failure
+70510,20250625,4,3,33,Corrective maintenance
+70511,20250626,2,3,37,Cleaning
+70512,20250626,4,1,40,Preventive maintenance
+70513,20250627,2,1,10,Electrical failure
+70514,20250627,2,2,60,Preventive maintenance
+70515,20250627,2,3,27,Preventive maintenance
+70516,20250627,3,1,41,Cleaning
+70517,20250628,1,1,77,Preventive maintenance
+70518,20250628,3,3,81,Preventive maintenance
+70519,20250629,1,2,31,Cleaning
+70520,20250629,3,3,90,Product changeover
+70521,20250629,4,2,38,Preventive maintenance
+70522,20250630,2,3,122,Cleaning
+70523,20250630,3,2,31,Electrical failure
+70524,20250630,3,3,12,Cleaning
+70525,20250630,4,2,20,Electrical failure
+70526,20250701,1,2,19,Preventive maintenance
+70527,20250701,2,2,48,Cleaning
+70528,20250701,2,3,57,Product changeover
+70529,20250701,4,3,18,Electrical failure
+70530,20250702,2,1,33,No birds available
+70531,20250702,2,2,13,Product changeover
+70532,20250702,2,3,18,Electrical failure
+70533,20250702,3,3,20,Preventive maintenance
+70534,20250702,4,3,55,Preventive maintenance
+70535,20250703,3,1,32,Product changeover
+70536,20250703,3,3,62,Preventive maintenance
+70537,20250704,2,1,15,Electrical failure
+70538,20250704,2,2,57,Product changeover
+70539,20250704,3,1,59,Cleaning
+70540,20250704,3,3,37,No birds available
+70541,20250704,4,2,25,Corrective maintenance
+70542,20250705,3,2,23,No birds available
+70543,20250705,3,3,41,Product changeover
+70545,20250706,3,3,15,Corrective maintenance
+70546,20250706,4,1,43,Product changeover
+70547,20250706,4,2,36,No birds available
+70548,20250707,2,3,52,Product changeover
+70549,20250707,3,3,79,Corrective maintenance
+70550,20250707,4,1,33,Product changeover
+70551,20250708,1,2,114,Product changeover
+70552,20250708,2,3,39,Electrical failure
+70553,20250709,3,3,94,Corrective maintenance
+70554,20250710,1,1,33,Product changeover
+70555,20250710,2,1,17,No birds available
+70556,20250710,3,2,86,Preventive maintenance
+70557,20250710,4,3,27,Product changeover
+70558,20250711,1,2,38,No birds available
+70559,20250711,4,3,18,Product changeover
+70560,20250712,3,1,35,Product changeover
+70561,20250713,2,1,196,Preventive maintenance
+70562,20250713,3,3,21,Cleaning
+70563,20250713,4,1,27,Preventive maintenance
+70564,20250713,4,2,93,Corrective maintenance
+70565,20250714,1,2,20,Cleaning
+70566,20250714,2,2,32,Product changeover
+70567,20250714,3,1,49,Product changeover
+70568,20250714,4,3,34,Cleaning
+70569,20250715,1,1,77,Electrical failure
+70570,20250715,1,2,24,Cleaning
+70571,20250715,1,3,50,Preventive maintenance
+70572,20250715,2,1,39,Product changeover
+70573,20250715,3,1,45,Electrical failure
+70574,20250716,1,2,60,No birds available
+70575,20250717,1,2,66,No birds available
+70576,20250717,2,1,21,Preventive maintenance
+70577,20250717,2,2,42,Cleaning
+70578,20250718,3,2,24,Cleaning
+70579,20250718,3,3,28,Electrical failure
+70580,20250718,4,1,18,Corrective maintenance
+70581,20250719,1,1,33,No birds available
+70582,20250719,1,2,25,Cleaning
+70583,20250719,3,2,59,Corrective maintenance
+70584,20250719,4,2,26,No birds available
+70585,20250720,2,2,39,No birds available
+70586,20250721,1,1,22,Corrective maintenance
+70587,20250721,1,2,19,Preventive maintenance
+70588,20250721,2,2,41,Cleaning
+70589,20250722,1,2,35,Cleaning
+70590,20250722,1,3,36,Product changeover
+70591,20250722,4,3,50,Corrective maintenance
+70592,20250723,1,2,32,Product changeover
+70593,20250723,1,3,73,No birds available
+70594,20250723,3,2,50,Preventive maintenance
+70595,20250723,4,3,23,Product changeover
+70596,20250724,2,1,32,Cleaning
+70597,20250724,2,3,68,Electrical failure
+70598,20250724,3,1,37,Electrical failure
+70599,20250724,3,2,26,Electrical failure
+70601,20250725,3,3,25,Cleaning
+70602,20250726,3,3,24,Cleaning
+70603,20250726,4,1,27,No birds available
+70604,20250727,2,1,65,Cleaning
+70605,20250727,2,2,55,No birds available
+70606,20250727,3,2,24,Preventive maintenance
+70607,20250728,1,1,31,Preventive maintenance
+70608,20250728,1,2,106,Corrective maintenance
+70609,20250728,2,3,22,Corrective maintenance
+70610,20250728,3,1,29,Electrical failure
+70611,20250729,1,1,33,Electrical failure
+70612,20250729,1,3,24,Product changeover
+70613,20250729,2,1,25,No birds available
+70614,20250730,2,3,26,Cleaning
+70615,20250731,1,2,23,Electrical failure
+70616,20250801,1,1,21,Electrical failure
+70617,20250801,1,3,32,Preventive maintenance
+70618,20250801,2,2,17,Product changeover
+70619,20250801,2,3,93,Product changeover
+70620,20250801,3,1,23,No birds available
+70621,20250801,4,1,32,Product changeover
+70622,20250801,4,2,20,Electrical failure
+70623,20250802,1,1,39,Electrical failure
+70624,20250802,4,1,62,Product changeover
+70625,20250802,4,2,22,No birds available
+70626,20250802,4,3,44,Preventive maintenance
+70627,20250803,1,1,24,Product changeover
+70628,20250803,2,3,13,Corrective maintenance
+70629,20250803,4,1,31,Cleaning
+70630,20250804,1,1,69,Cleaning
+70631,20250804,1,2,18,Product changeover
+70632,20250804,1,3,26,Electrical failure
+70633,20250804,3,2,29,No birds available
+70634,20250805,2,2,96,Product changeover
+70635,20250805,3,3,67,Electrical failure
+70636,20250805,4,1,52,Electrical failure
+70637,20250805,4,3,21,Electrical failure
+70638,20250806,1,3,16,Product changeover
+70639,20250807,2,1,73,No birds available
+70640,20250807,2,3,27,Product changeover
+70641,20250808,1,3,38,Corrective maintenance
+70642,20250809,1,3,69,Electrical failure
+70643,20250809,2,2,31,No birds available
+70644,20250809,4,1,54,Product changeover
+70645,20250810,1,1,27,Cleaning
+70646,20250810,3,1,53,Product changeover
+70647,20250810,3,2,38,Preventive maintenance
+70648,20250810,3,3,33,Electrical failure
+70649,20250811,2,1,84,Preventive maintenance
+70650,20250811,3,1,14,Electrical failure
+70651,20250811,4,1,71,No birds available
+70652,20250812,1,2,17,Electrical failure
+70653,20250812,2,2,54,Cleaning
+70654,20250812,3,2,84,No birds available
+70655,20250812,3,3,52,Preventive maintenance
+70656,20250813,3,3,12,Cleaning
+70657,20250813,4,3,30,Product changeover
+70658,20250814,2,2,13,Preventive maintenance
+70659,20250814,3,3,40,Product changeover
+70660,20250814,4,1,27,Cleaning
+70661,20250815,1,2,74,Product changeover
+70662,20250815,3,3,39,Corrective maintenance
+70663,20250815,4,1,9,Cleaning
+70664,20250816,1,3,26,Cleaning
+70665,20250816,2,1,23,Cleaning
+70666,20250816,4,1,102,Preventive maintenance
+70667,20250816,4,2,69,Product changeover
+70668,20250816,4,3,51,Electrical failure
+70669,20250817,2,3,96,No birds available
+70670,20250817,4,1,86,Product changeover
+70671,20250817,4,3,18,Electrical failure
+70672,20250818,1,2,11,Electrical failure
+70673,20250818,1,3,82,Electrical failure
+70674,20250818,2,3,81,Product changeover
+70675,20250818,3,2,95,Product changeover
+70676,20250818,4,2,17,Electrical failure
+70677,20250819,1,1,27,Electrical failure
+70678,20250819,3,1,21,Product changeover
+70679,20250819,3,3,13,No birds available
+70680,20250819,4,1,31,Cleaning
+70681,20250819,4,2,40,No birds available
+70682,20250820,2,2,33,Electrical failure
+70683,20250820,2,3,34,Preventive maintenance
+70685,20250821,2,3,29,Product changeover
+70686,20250821,4,3,28,Product changeover
+70687,20250822,2,2,36,Product changeover
+70688,20250822,3,1,61,Corrective maintenance
+70689,20250822,3,3,21,Preventive maintenance
+70690,20250823,1,1,20,Electrical failure
+70691,20250823,2,1,25,Cleaning
+70692,20250823,2,3,33,Cleaning
+70693,20250823,3,3,51,Electrical failure
+70694,20250824,1,3,59,Corrective maintenance
+70695,20250824,3,1,18,Product changeover
+70696,20250825,1,1,23,No birds available
+70698,20250825,3,3,49,Corrective maintenance
+70699,20250825,4,1,26,Electrical failure
+70700,20250825,4,3,89,Corrective maintenance
+70701,20250826,1,1,30,Electrical failure
+70702,20250826,1,2,16,No birds available
+70703,20250826,4,3,30,Preventive maintenance
+70704,20250827,1,3,37,Preventive maintenance
+70705,20250827,2,2,107,Electrical failure
+70706,20250827,4,1,74,No birds available
+70707,20250828,3,1,23,Cleaning
+70708,20250828,4,1,33,Corrective maintenance
+70709,20250828,4,2,61,No birds available
+70710,20250829,2,1,29,Cleaning
+70711,20250829,3,1,32,Cleaning
+70712,20250829,3,2,23,Preventive maintenance
+70713,20250829,4,1,39,Preventive maintenance
+70714,20250829,4,2,105,Corrective maintenance
+70715,20250830,1,1,23,Cleaning
+70716,20250830,1,2,94,Product changeover
+70717,20250830,1,3,16,Preventive maintenance
+70718,20250830,3,1,140,Cleaning
+70719,20250831,1,2,37,Cleaning
+70720,20250831,3,2,73,Cleaning
+70721,20250831,4,3,22,Preventive maintenance
+70722,20250901,1,1,19,Cleaning
+70723,20250901,2,2,42,Preventive maintenance
+70724,20250901,3,1,35,Corrective maintenance
+70725,20250902,1,1,37,No birds available
+70726,20250903,3,1,64,Product changeover
+70727,20250903,4,3,77,Product changeover
+70728,20250904,1,1,20,Corrective maintenance
+70729,20250904,3,3,42,Preventive maintenance
+70730,20250905,1,1,63,Cleaning
+70731,20250905,1,3,27,Product changeover
+70732,20250905,3,2,29,No birds available
+70733,20250905,4,2,40,Preventive maintenance
+70734,20250905,4,3,37,Electrical failure
+70735,20250906,1,2,60,Electrical failure
+70736,20250907,2,3,20,No birds available
+70737,20250907,4,3,71,Cleaning
+70738,20250908,1,2,24,Product changeover
+70739,20250908,2,1,34,Product changeover
+70740,20250908,2,3,34,Cleaning
+70741,20250908,4,1,47,Preventive maintenance
+70742,20250909,1,1,24,Cleaning
+70743,20250909,1,2,32,Cleaning
+70744,20250909,4,2,18,Corrective maintenance
+70745,20250910,4,1,77,Corrective maintenance
+70746,20250911,2,3,11,Electrical failure
+70747,20250911,4,3,116,Electrical failure
+70748,20250912,1,3,32,Corrective maintenance
+70749,20250912,4,3,50,Cleaning
+70750,20250913,4,2,53,Product changeover
+70751,20250914,1,3,81,Corrective maintenance
+70752,20250914,2,1,18,Product changeover
+70753,20250914,3,3,34,No birds available
+70754,20250914,4,3,27,No birds available
+70755,20250915,1,3,52,Product changeover
+70756,20250915,2,3,19,Corrective maintenance
+70757,20250915,4,3,56,Electrical failure
+70758,20250916,1,3,20,Electrical failure
+70760,20250916,4,3,24,Corrective maintenance
+70761,20250917,2,1,17,Corrective maintenance
+70762,20250917,3,1,35,Corrective maintenance
+70763,20250917,4,3,22,No birds available
+70764,20250918,2,1,57,No birds available
+70765,20250918,4,2,44,No birds available
+70766,20250919,4,1,31,Preventive maintenance
+70767,20250920,1,1,72,Product changeover
+70768,20250920,2,3,38,Corrective maintenance
+70769,20250920,3,1,99,Corrective maintenance
+70770,20250920,4,3,39,Corrective maintenance
+70771,20250921,1,3,52,Product changeover
+70772,20250921,4,1,18,Preventive maintenance
+70773,20250922,2,1,42,Cleaning
+70774,20250922,2,2,22,Product changeover
+70775,20250922,3,3,48,Electrical failure
+70776,20250922,4,3,69,Product changeover
+70777,20250923,1,1,126,Electrical failure
+70778,20250923,1,2,52,Preventive maintenance
+70779,20250923,2,2,139,Corrective maintenance
+70780,20250923,2,3,78,Product changeover
+70781,20250923,4,3,74,Corrective maintenance
+70782,20250924,4,1,37,Preventive maintenance
+70783,20250925,3,3,27,Product changeover
+70784,20250925,4,3,46,Electrical failure
+70785,20250926,1,3,20,No birds available
+70786,20250927,2,1,57,Product changeover
+70787,20250927,2,2,38,Corrective maintenance
+70788,20250928,2,3,17,Electrical failure
+70789,20250928,4,1,19,Product changeover
+70790,20250929,2,2,20,Electrical failure
+70791,20250929,2,3,59,Product changeover
+70792,20250929,3,3,15,No birds available
+70793,20250930,2,3,30,No birds available
+70794,20251001,2,1,45,Product changeover
+70795,20251001,3,2,26,Corrective maintenance
+70796,20251001,4,3,49,No birds available
+70797,20251002,1,2,34,Cleaning
+70798,20251003,1,1,32,Corrective maintenance
+70799,20251003,3,3,109,No birds available
+70800,20251003,4,1,13,Electrical failure
+70801,20251004,3,1,67,Corrective maintenance
+70802,20251004,4,1,31,Electrical failure
+70803,20251004,4,2,12,Cleaning
+70804,20251005,2,3,41,Electrical failure
+70805,20251005,4,2,32,Electrical failure
+70806,20251006,1,1,21,No birds available
+70807,20251006,3,2,28,Preventive maintenance
+70808,20251006,3,3,19,Electrical failure
+70809,20251007,1,3,47,Cleaning
+70810,20251007,3,2,27,Electrical failure
+70811,20251007,3,3,18,Product changeover
+70812,20251007,4,1,41,Corrective maintenance
+70813,20251007,4,2,162,Electrical failure
+70814,20251008,2,3,33,No birds available
+70815,20251008,3,3,16,No birds available
+70816,20251009,2,1,9,Cleaning
+70817,20251009,2,2,37,Corrective maintenance
+70818,20251009,4,1,29,No birds available
+70819,20251010,1,3,29,Preventive maintenance
+70820,20251010,3,3,27,Product changeover
+70821,20251010,4,1,125,Product changeover
+70822,20251010,4,2,27,Electrical failure
+70823,20251011,3,3,64,Corrective maintenance
+70824,20251011,4,2,31,Product changeover
+70825,20251011,4,3,25,Product changeover
+70826,20251012,4,3,111,Preventive maintenance
+70827,20251013,3,2,66,No birds available
+70828,20251013,4,3,36,Corrective maintenance
+70829,20251014,1,2,39,Preventive maintenance
+70830,20251014,3,1,55,No birds available
+70831,20251014,4,3,44,Product changeover
+70832,20251015,1,1,37,Electrical failure
+70833,20251016,2,1,17,Corrective maintenance
+70834,20251016,4,1,76,Corrective maintenance
+70835,20251016,4,3,22,Corrective maintenance
+70836,20251017,2,1,20,Preventive maintenance
+70837,20251017,2,2,10,Preventive maintenance
+70838,20251017,2,3,31,Cleaning
+70839,20251018,2,2,67,Product changeover
+70840,20251018,2,3,16,Electrical failure
+70841,20251018,4,1,55,Preventive maintenance
+70842,20251018,4,2,36,Preventive maintenance
+70843,20251018,4,3,74,Corrective maintenance
+70844,20251019,1,3,25,Electrical failure
+70845,20251019,2,3,27,Product changeover
+70846,20251019,3,3,41,Preventive maintenance
+70847,20251020,2,1,22,Cleaning
+70848,20251020,4,1,80,No birds available
+70849,20251020,4,2,43,Electrical failure
+70850,20251021,1,2,21,Preventive maintenance
+70851,20251022,2,2,25,Electrical failure
+70852,20251022,3,3,20,No birds available
+70853,20251023,1,1,14,No birds available
+70854,20251023,1,3,82,Electrical failure
+70855,20251023,4,2,110,No birds available
+70856,20251024,1,2,22,Electrical failure
+70857,20251024,3,2,100,Electrical failure
+70858,20251024,4,1,57,Cleaning
+70859,20251025,1,1,29,Corrective maintenance
+70860,20251025,2,1,56,No birds available
+70861,20251025,2,2,32,Product changeover
+70862,20251025,2,3,30,Electrical failure
+70863,20251025,3,2,65,No birds available
+70864,20251025,4,1,37,Corrective maintenance
+70865,20251025,4,3,28,No birds available
+70866,20251026,2,1,51,No birds available
+70867,20251026,2,2,71,Corrective maintenance
+70868,20251026,2,3,19,Preventive maintenance
+70869,20251026,3,2,253,Cleaning
+70870,20251026,4,2,34,Preventive maintenance
+70871,20251028,1,1,40,Product changeover
+70872,20251028,3,3,54,Product changeover
+70873,20251028,4,1,24,Cleaning
+70874,20251029,2,1,17,No birds available
+70875,20251029,4,1,34,Corrective maintenance
+70876,20251029,4,3,51,Product changeover
+70877,20251030,1,1,43,Preventive maintenance
+70878,20251030,1,2,43,Electrical failure
+70879,20251030,2,1,80,Preventive maintenance
+70880,20251030,2,2,45,Cleaning
+70881,20251031,2,3,36,No birds available
+70882,20251031,3,1,19,Electrical failure
+70883,20251101,1,1,18,Electrical failure
+70884,20251101,1,2,26,No birds available
+70885,20251101,1,3,130,Cleaning
+70886,20251101,3,3,39,Electrical failure
+70887,20251102,1,1,66,Corrective maintenance
+70888,20251102,2,1,9,Corrective maintenance
+70889,20251102,3,3,18,Electrical failure
+70890,20251103,1,2,68,Preventive maintenance
+70891,20251103,2,2,35,Product changeover
+70892,20251103,2,3,26,No birds available
+70893,20251104,1,1,35,Product changeover
+70894,20251104,3,2,63,Preventive maintenance
+70895,20251104,3,3,35,Corrective maintenance
+70896,20251104,4,2,44,Product changeover
+70897,20251105,1,2,32,Electrical failure
+70898,20251106,1,2,39,Cleaning
+70899,20251106,3,3,17,Preventive maintenance
+70900,20251107,1,1,47,No birds available
+70901,20251107,2,1,46,Electrical failure
+70902,20251108,2,1,28,No birds available
+70903,20251108,3,2,50,Cleaning
+70904,20251108,3,3,23,Electrical failure
+70905,20251108,4,2,32,Corrective maintenance
+70906,20251108,4,3,31,Product changeover
+70907,20251109,3,2,38,Preventive maintenance
+70908,20251109,4,2,28,Product changeover
+70909,20251110,2,2,107,No birds available
+70910,20251111,2,1,18,Corrective maintenance
+70911,20251111,2,2,121,Corrective maintenance
+70912,20251111,3,3,58,Electrical failure
+70913,20251111,4,2,51,No birds available
+70914,20251111,4,3,15,No birds available
+70915,20251112,1,1,28,No birds available
+70916,20251112,2,1,21,Product changeover
+70917,20251112,3,2,32,Product changeover
+70918,20251112,3,3,36,Corrective maintenance
+70919,20251113,1,2,44,Preventive maintenance
+70920,20251113,2,3,26,No birds available
+70921,20251114,1,3,14,Cleaning
+70922,20251114,3,3,39,Electrical failure
+70923,20251116,4,1,65,No birds available
+70924,20251116,4,3,31,Product changeover
+70925,20251117,1,3,122,Electrical failure
+70926,20251117,2,2,40,Product changeover
+70927,20251118,2,2,56,Preventive maintenance
+70928,20251118,4,1,132,Product changeover
+70929,20251119,1,1,34,No birds available
+70930,20251119,2,3,25,No birds available
+70931,20251119,3,1,33,Product changeover
+70932,20251120,1,1,157,Electrical failure
+70933,20251120,1,3,63,No birds available
+70934,20251120,3,2,29,Corrective maintenance
+70935,20251121,1,2,25,No birds available
+70936,20251121,1,3,12,No birds available
+70937,20251121,2,1,24,Preventive maintenance
+70938,20251121,3,3,13,Preventive maintenance
+70939,20251121,4,1,55,Preventive maintenance
+70940,20251122,1,1,40,Cleaning
+70941,20251122,2,1,44,Corrective maintenance
+70942,20251122,3,1,12,Cleaning
+70943,20251122,4,1,57,Product changeover
+70944,20251122,4,2,7,Cleaning
+70945,20251123,1,1,47,Corrective maintenance
+70946,20251123,1,2,25,No birds available
+70947,20251123,4,3,31,Product changeover
+70948,20251124,1,1,26,Product changeover
+70949,20251124,1,3,22,Product changeover
+70950,20251124,2,1,41,Electrical failure
+70951,20251124,3,1,13,No birds available
+70952,20251124,3,2,61,Electrical failure
+70953,20251125,1,2,63,Preventive maintenance
+70954,20251125,2,2,57,Product changeover
+70955,20251125,3,2,59,No birds available
+70956,20251125,4,2,12,No birds available
+70957,20251126,3,1,42,Cleaning
+70958,20251126,3,3,33,Corrective maintenance
+70959,20251127,2,3,32,Preventive maintenance
+70960,20251127,3,2,21,No birds available
+70961,20251127,3,3,72,Product changeover
+70962,20251127,4,1,29,Corrective maintenance
+70963,20251127,4,3,21,No birds available
+70964,20251128,1,1,31,Product changeover
+70965,20251128,2,1,156,Preventive maintenance
+70966,20251128,2,3,56,Cleaning
+70967,20251128,3,2,9,Cleaning
+70968,20251129,1,2,36,Electrical failure
+70969,20251129,1,3,29,Corrective maintenance
+70970,20251129,2,1,72,Cleaning
+70971,20251129,3,2,81,Product changeover
+70972,20251130,1,2,15,Cleaning
+70973,20251130,4,1,52,No birds available
+70974,20251201,3,1,17,Preventive maintenance
+70975,20251201,3,2,32,Corrective maintenance
+70976,20251201,3,3,31,No birds available
+70977,20251202,2,2,67,No birds available
+70978,20251203,1,1,15,Product changeover
+70979,20251203,2,1,95,Electrical failure
+70980,20251203,4,1,216,Cleaning
+70981,20251204,2,2,21,Cleaning
+70982,20251206,1,2,34,Preventive maintenance
+70983,20251206,2,2,59,Product changeover
+70984,20251206,2,3,53,No birds available
+70985,20251206,3,1,47,Product changeover
+70986,20251207,2,2,86,Electrical failure
+70987,20251207,3,3,30,Electrical failure
+70988,20251207,4,1,35,Preventive maintenance
+70989,20251207,4,3,30,Electrical failure
+70990,20251208,4,2,49,Corrective maintenance
+70991,20251208,4,3,35,Product changeover
+70992,20251209,1,2,35,Corrective maintenance
+70993,20251209,2,3,32,No birds available
+70994,20251209,3,2,71,Electrical failure
+70995,20251210,1,1,33,Corrective maintenance
+70996,20251210,2,2,26,No birds available
+70997,20251210,4,2,15,Product changeover
+70998,20251211,1,1,31,Corrective maintenance
+70999,20251211,1,2,27,Preventive maintenance
+71000,20251211,1,3,38,Corrective maintenance
+71001,20251211,3,1,70,Corrective maintenance
+71002,20251211,4,1,35,Product changeover
+71003,20251212,1,3,45,Electrical failure
+71004,20251212,3,2,55,Cleaning
+71005,20251212,3,3,50,Cleaning
+71006,20251212,4,1,38,No birds available
+71007,20251212,4,3,54,Cleaning
+71008,20251213,1,2,162,Preventive maintenance
+71009,20251213,2,1,53,No birds available
+71010,20251213,3,1,22,Cleaning
+71011,20251214,3,3,37,Corrective maintenance
+71012,20251214,4,1,26,Cleaning
+71013,20251214,4,2,46,Corrective maintenance
+71014,20251215,3,2,21,No birds available
+71015,20251215,4,3,83,Electrical failure
+71016,20251216,1,1,61,Product changeover
+71017,20251216,2,1,18,Electrical failure
+71018,20251216,4,1,52,Preventive maintenance
+71019,20251217,2,3,39,Product changeover
+71020,20251217,3,1,33,Corrective maintenance
+71021,20251217,3,2,34,Product changeover
+71022,20251217,4,1,69,Product changeover
+71023,20251217,4,3,116,No birds available
+71024,20251218,1,2,25,Product changeover
+71025,20251218,3,1,171,No birds available
+71026,20251218,3,2,16,Electrical failure
+71027,20251218,4,3,47,Corrective maintenance
+71028,20251219,1,1,28,Corrective maintenance
+71029,20251219,1,3,33,Cleaning
+71030,20251219,4,1,29,Electrical failure
+71031,20251220,1,1,20,Product changeover
+71032,20251220,2,1,115,Product changeover
+71033,20251220,2,2,86,Corrective maintenance
+71034,20251220,3,2,48,No birds available
+71035,20251220,3,3,17,Corrective maintenance
+71036,20251221,1,1,198,No birds available
+71037,20251221,3,3,55,No birds available
+71038,20251222,1,3,17,Product changeover
+71039,20251222,3,2,22,Electrical failure
+71040,20251222,4,3,31,Product changeover
+71041,20251223,1,1,50,Product changeover
+71042,20251223,2,1,18,Preventive maintenance
+71043,20251223,4,3,41,Corrective maintenance
+71044,20251224,1,1,37,Preventive maintenance
+71045,20251224,2,1,14,Preventive maintenance
+71047,20251224,3,3,73,Cleaning
+71048,20251224,4,1,26,No birds available
+71049,20251225,1,1,20,Cleaning
+71050,20251225,3,1,46,Corrective maintenance
+71051,20251226,3,1,25,Corrective maintenance
+71052,20251226,3,2,118,Preventive maintenance
+71053,20251226,4,1,16,Product changeover
+71054,20251227,1,1,23,Corrective maintenance
+71055,20251227,4,3,20,Corrective maintenance
+71056,20251228,2,3,31,Cleaning
+71057,20251228,3,3,14,Electrical failure
+71058,20251228,4,3,16,Cleaning
+71059,20251229,1,3,68,Cleaning
+71060,20251229,3,3,19,No birds available
+71061,20251229,4,1,42,Corrective maintenance
+71062,20251229,4,3,72,Electrical failure
+71063,20251230,1,1,66,Preventive maintenance
+71064,20251230,3,3,20,No birds available
+71065,20251231,1,1,17,No birds available
+71066,20251231,1,2,29,Corrective maintenance
+71067,20251231,2,1,31,Preventive maintenance
+71068,20251231,2,2,68,Electrical failure
+71069,20251231,3,3,45,Preventive maintenance
+71070,20251231,4,3,18,Preventive maintenance
+71071,20260101,1,3,40,Preventive maintenance
+71072,20260101,4,3,16,Electrical failure
+71073,20260102,1,3,45,Corrective maintenance
+71074,20260102,3,3,30,Electrical failure
+71075,20260103,1,2,40,Electrical failure
+71076,20260103,2,2,45,Cleaning
+71077,20260103,3,3,27,Preventive maintenance
+71078,20260103,4,1,44,Cleaning
+71079,20260104,2,1,11,Cleaning
+71080,20260105,1,2,37,Product changeover
+71081,20260106,1,1,42,No birds available
+71082,20260106,2,2,46,Corrective maintenance
+71084,20260106,3,2,26,Cleaning
+71085,20260106,4,3,22,Product changeover
+71086,20260107,2,1,23,Product changeover
+71087,20260107,3,2,58,Product changeover
+71088,20260108,1,3,60,Product changeover
+71089,20260108,3,1,18,Product changeover
+71090,20260108,3,3,37,Electrical failure
+71091,20260108,4,1,121,Product changeover
+71092,20260109,2,1,14,Corrective maintenance
+71093,20260109,2,2,112,Preventive maintenance
+71094,20260110,1,3,62,No birds available
+71095,20260110,2,1,31,Product changeover
+71096,20260110,2,3,41,Cleaning
+71097,20260111,1,2,61,Preventive maintenance
+71098,20260111,2,2,78,Cleaning
+71099,20260111,2,3,19,Product changeover
+71100,20260112,1,2,34,Corrective maintenance
+71101,20260112,3,1,25,No birds available
+71102,20260113,1,1,29,No birds available
+71103,20260113,3,3,61,Electrical failure
+71104,20260113,4,1,100,No birds available
+71105,20260114,1,1,33,Corrective maintenance
+71106,20260114,1,2,29,No birds available
+71107,20260114,3,1,32,No birds available
+71108,20260115,2,1,35,Cleaning
+71109,20260115,3,2,53,Cleaning
+71110,20260115,4,1,17,Cleaning
+71111,20260116,4,2,23,Electrical failure
+71112,20260116,4,3,41,Preventive maintenance
+71113,20260118,2,3,35,Product changeover
+71114,20260119,1,1,141,Electrical failure
+71115,20260119,1,2,46,Corrective maintenance
+71116,20260119,1,3,56,Electrical failure
+71117,20260119,3,2,56,Cleaning
+71118,20260120,1,1,64,Cleaning
+71119,20260120,1,3,13,Preventive maintenance
+71120,20260120,2,2,32,Preventive maintenance
+71121,20260120,3,2,8,Preventive maintenance
+71122,20260120,4,1,63,Product changeover
+71123,20260120,4,2,18,Product changeover
+71124,20260121,2,3,47,Cleaning
+71125,20260121,3,3,54,No birds available
+71126,20260122,2,1,14,No birds available
+71127,20260122,2,2,27,No birds available
+71128,20260122,2,3,61,Electrical failure
+71129,20260122,3,3,33,Cleaning
+71130,20260123,2,2,139,Electrical failure
+71131,20260123,2,3,28,Cleaning
+71132,20260123,4,1,37,Cleaning
+71133,20260124,1,3,31,Preventive maintenance
+71134,20260125,2,2,45,Cleaning
+71135,20260126,4,2,96,Preventive maintenance
+71136,20260126,4,3,11,Preventive maintenance
+71137,20260127,1,1,91,Preventive maintenance
+71138,20260127,2,2,49,Corrective maintenance
+71139,20260127,3,3,65,Corrective maintenance
+71140,20260128,1,1,34,Cleaning
+71141,20260128,1,3,24,Product changeover
+71142,20260128,2,2,40,Electrical failure
+71143,20260128,2,3,40,Product changeover
+71144,20260128,3,2,29,Cleaning
+71145,20260128,3,3,111,Corrective maintenance
+71146,20260128,4,1,18,Product changeover
+71147,20260129,1,2,53,Cleaning
+71148,20260129,1,3,28,Product changeover
+71149,20260129,2,3,32,No birds available
+71150,20260129,3,2,38,Electrical failure
+71151,20260130,2,3,32,Corrective maintenance
+71152,20260130,3,2,44,Product changeover
+71153,20260130,3,3,41,Cleaning
+71154,20260131,1,1,31,Preventive maintenance
+71155,20260131,1,3,36,Corrective maintenance
+71156,20260131,3,3,25,Cleaning
+71157,20260131,4,2,41,Corrective maintenance
+71158,20260201,3,2,33,Cleaning
+71159,20260201,4,2,137,Electrical failure
+71160,20260202,2,1,43,Cleaning
+71161,20260202,2,2,35,Product changeover
+71162,20260202,2,3,12,No birds available
+71163,20260202,3,3,33,Corrective maintenance
+71164,20260203,2,2,30,Corrective maintenance
+71165,20260203,3,1,42,No birds available
+71166,20260203,4,2,112,Electrical failure
+71167,20260203,4,3,35,Corrective maintenance
+71168,20260204,1,3,45,Electrical failure
+71169,20260204,3,1,46,Cleaning
+71170,20260204,3,3,36,Preventive maintenance
+71171,20260204,4,3,21,Preventive maintenance
+71172,20260205,1,1,73,Product changeover
+71173,20260205,2,2,40,Preventive maintenance
+71174,20260205,2,3,35,Preventive maintenance
+71175,20260205,3,3,65,Cleaning
+71176,20260205,4,1,64,No birds available
+71177,20260205,4,2,51,Preventive maintenance
+71178,20260205,4,3,20,Cleaning
+71179,20260206,3,3,55,Corrective maintenance
+71180,20260206,4,1,81,Product changeover
+71181,20260207,2,1,64,No birds available
+71182,20260207,4,1,35,No birds available
+71183,20260207,4,2,27,Preventive maintenance
+71184,20260208,1,3,63,Electrical failure
+71185,20260208,2,1,30,Corrective maintenance
+71186,20260208,4,2,39,No birds available
+71187,20260209,1,3,116,Preventive maintenance
+71188,20260209,3,1,53,Electrical failure
+71189,20260209,4,1,39,Preventive maintenance
+71190,20260210,1,2,23,No birds available
+71191,20260211,2,2,66,Corrective maintenance
+71192,20260211,3,1,188,No birds available
+71193,20260211,4,1,126,No birds available
+71194,20260211,4,3,110,Product changeover
+71195,20260213,2,1,72,Cleaning
+71196,20260213,4,3,31,No birds available
+71197,20260214,3,2,101,Preventive maintenance
+71198,20260214,3,3,54,Product changeover
+71199,20260214,4,2,22,Cleaning
+71200,20260214,4,3,22,Cleaning
+71201,20260215,1,2,55,Preventive maintenance
+71202,20260215,2,3,12,Electrical failure
+71203,20260215,4,1,43,Preventive maintenance
+71204,20260216,1,1,72,No birds available
+71205,20260216,2,2,38,No birds available
+71206,20260216,3,3,42,Product changeover
+71207,20260216,4,3,7,Preventive maintenance
+71208,20260217,2,3,63,Cleaning
+71209,20260218,1,3,31,No birds available
+71210,20260218,4,2,33,Corrective maintenance
+71211,20260218,4,3,28,No birds available
+71212,20260219,2,1,27,Preventive maintenance
+71213,20260219,2,3,43,Corrective maintenance
+71214,20260219,3,1,14,No birds available
+71215,20260219,4,3,59,No birds available
+71216,20260220,3,3,43,No birds available
+71217,20260221,1,3,98,Corrective maintenance
+71218,20260221,4,2,23,Cleaning
+71219,20260222,1,2,47,Cleaning
+71220,20260222,3,2,62,Corrective maintenance
+71221,20260223,1,3,26,Cleaning
+71222,20260223,4,1,15,Cleaning
+71223,20260223,4,3,34,Cleaning
+71224,20260224,2,1,22,Preventive maintenance
+71225,20260224,3,2,64,No birds available
+71226,20260224,4,1,24,Preventive maintenance
+71227,20260224,4,2,52,No birds available
+71228,20260225,1,1,61,Electrical failure
+71229,20260225,3,1,21,Product changeover
+71230,20260225,4,1,62,Cleaning
+71231,20260226,2,2,33,Cleaning
+71232,20260226,2,3,34,Corrective maintenance
+71233,20260226,3,2,86,Electrical failure
+71234,20260227,2,2,56,Cleaning
+71235,20260227,4,2,17,Electrical failure
+71236,20260227,4,3,44,Product changeover
+71237,20260228,3,3,59,Product changeover
+71238,20260301,1,3,46,Preventive maintenance
+71239,20260301,2,2,19,Cleaning
+71240,20260301,3,1,17,Corrective maintenance
+71241,20260301,4,2,30,Cleaning
+71242,20260302,1,3,38,Preventive maintenance
+71243,20260302,4,1,24,Corrective maintenance
+71244,20260302,4,3,86,Product changeover
+71245,20260303,1,2,60,Electrical failure
+71246,20260303,1,3,49,Product changeover
+71247,20260303,2,3,62,Preventive maintenance
+71248,20260303,3,1,123,Corrective maintenance
+71249,20260303,4,3,70,Product changeover
+71250,20260304,1,1,17,Cleaning
+71251,20260304,4,3,16,Product changeover
+71252,20260305,3,1,56,Cleaning
+71253,20260305,4,1,62,Corrective maintenance
+71254,20260305,4,2,67,Cleaning
+71255,20260306,3,2,29,Corrective maintenance
+71256,20260306,4,1,34,Cleaning
+71257,20260307,1,2,44,Corrective maintenance
+71258,20260307,2,3,24,Corrective maintenance
+71259,20260307,3,2,43,Electrical failure
+71260,20260308,1,1,24,No birds available
+71261,20260308,1,3,65,Corrective maintenance
+71262,20260308,3,2,44,Corrective maintenance
+71263,20260308,4,2,28,Product changeover
+71264,20260309,2,1,12,Product changeover
+71265,20260309,3,2,47,Preventive maintenance
+71266,20260309,4,1,86,Product changeover
+71267,20260309,4,2,17,Electrical failure
+71268,20260310,1,1,46,Corrective maintenance
+71269,20260311,1,1,8,No birds available
+71270,20260311,2,3,35,Product changeover
+71271,20260311,3,1,31,Product changeover
+71272,20260311,3,2,32,Electrical failure
+71273,20260311,4,3,34,Electrical failure
+71274,20260312,2,2,79,Preventive maintenance
+71275,20260312,3,2,50,Product changeover
+71276,20260313,1,3,19,Product changeover
+71277,20260313,2,3,22,Electrical failure
+71278,20260313,3,2,24,Electrical failure
+71279,20260314,2,3,30,Corrective maintenance
+71280,20260314,3,2,37,Cleaning
+71281,20260314,4,1,41,Product changeover
+71282,20260315,1,1,62,Electrical failure
+71283,20260315,3,2,42,Cleaning
+71284,20260315,3,3,12,Cleaning
+71285,20260316,1,3,33,Product changeover
+71286,20260316,3,2,28,Electrical failure
+71287,20260317,2,2,27,Corrective maintenance
+71288,20260317,3,1,40,Corrective maintenance
+71289,20260317,3,2,43,Cleaning
+71290,20260318,2,1,63,Preventive maintenance
+71291,20260318,2,2,56,Corrective maintenance
+71292,20260318,3,2,45,No birds available
+71293,20260319,3,2,31,Cleaning
+71294,20260320,2,3,49,Electrical failure
+71295,20260320,3,2,33,No birds available
+71296,20260321,1,2,78,Cleaning
+71297,20260321,1,3,62,Cleaning
+71298,20260321,2,2,69,Corrective maintenance
+71299,20260321,3,3,50,No birds available
+71300,20260321,4,2,38,Electrical failure
+71301,20260321,4,3,77,Corrective maintenance
+71302,20260322,1,1,25,Preventive maintenance
+71303,20260322,2,1,20,Product changeover
+71304,20260322,3,2,31,Preventive maintenance
+71305,20260323,2,1,179,Preventive maintenance
+71306,20260323,2,2,31,Product changeover
+71307,20260323,3,2,8,Product changeover
+71308,20260323,4,2,61,Corrective maintenance
+71309,20260324,3,2,28,Corrective maintenance
+71310,20260324,4,2,29,Electrical failure
+71311,20260325,1,2,31,Product changeover
+71312,20260325,2,1,24,Corrective maintenance
+71313,20260325,2,2,21,Preventive maintenance
+71314,20260325,4,2,26,Corrective maintenance
+71315,20260326,1,2,83,Product changeover
+71316,20260326,1,3,21,Cleaning
+71317,20260326,3,1,10,Corrective maintenance
+71318,20260327,1,1,152,Electrical failure
+71319,20260327,1,3,9,Corrective maintenance
+71320,20260327,2,3,35,Corrective maintenance
+71321,20260327,3,2,21,Preventive maintenance
+71322,20260328,1,1,38,Preventive maintenance
+71323,20260328,2,1,39,Cleaning
+71324,20260328,2,2,33,No birds available
+71325,20260328,4,3,42,Cleaning
+71326,20260329,3,2,30,Preventive maintenance
+71327,20260329,4,2,25,Corrective maintenance
+71328,20260330,2,3,68,Corrective maintenance
+71329,20260330,4,2,27,Cleaning
+71330,20260331,2,3,24,Preventive maintenance
+71331,20260402,2,3,36,Corrective maintenance
+71332,20260402,3,2,66,Preventive maintenance
+71333,20260403,2,2,61,Preventive maintenance
+71334,20260403,3,1,36,Preventive maintenance
+71335,20260403,3,2,16,Preventive maintenance
+71336,20260403,3,3,25,No birds available
+71337,20260403,4,1,53,Preventive maintenance
+71338,20260404,3,2,44,Corrective maintenance
+71339,20260405,1,3,35,Preventive maintenance
+71340,20260405,3,2,147,Product changeover
+71341,20260405,4,2,15,Preventive maintenance
+71342,20260405,4,3,70,Product changeover
+71343,20260406,1,2,67,No birds available
+71344,20260406,2,3,56,Cleaning
+71345,20260406,3,2,40,Corrective maintenance
+71346,20260406,3,3,116,No birds available
+71347,20260406,4,1,25,Electrical failure
+71348,20260406,4,3,27,Cleaning
+71349,20260407,1,1,22,Preventive maintenance
+71350,20260407,1,2,180,Cleaning
+71351,20260407,2,3,18,No birds available
+71352,20260407,3,2,25,Cleaning
+71353,20260408,2,1,34,Electrical failure
+71354,20260408,2,2,17,Preventive maintenance
+71355,20260408,3,2,19,Cleaning
+71356,20260408,4,1,57,Electrical failure
+71357,20260409,1,1,51,Preventive maintenance
+71358,20260409,3,2,16,Cleaning
+71359,20260410,2,2,25,No birds available
+71360,20260410,3,2,29,Electrical failure
+71361,20260411,1,2,19,Electrical failure
+71362,20260412,1,1,66,No birds available
+71363,20260412,1,3,21,Electrical failure
+71364,20260412,2,2,41,No birds available
+71365,20260412,3,1,34,Cleaning
+71366,20260412,3,2,29,Preventive maintenance
+71367,20260413,1,3,90,Preventive maintenance
+71368,20260413,2,1,24,No birds available
+71369,20260413,2,2,21,Electrical failure
+71370,20260413,2,3,57,Corrective maintenance
+71371,20260413,3,2,78,Preventive maintenance
+71372,20260413,4,3,48,No birds available
+71373,20260414,2,2,69,No birds available
+71374,20260414,3,2,28,Electrical failure
+71375,20260415,1,3,35,Preventive maintenance
+71376,20260415,2,2,51,Preventive maintenance
+71377,20260415,3,2,26,Electrical failure
+71378,20260415,4,2,56,Electrical failure
+71379,20260416,1,2,22,Preventive maintenance
+71380,20260416,1,3,28,No birds available
+71381,20260416,2,1,9,No birds available
+71382,20260416,3,1,26,Preventive maintenance
+71383,20260416,3,2,26,Electrical failure
+71384,20260417,2,1,74,No birds available
+71385,20260417,2,2,45,Corrective maintenance
+71387,20260418,1,2,52,Electrical failure
+71388,20260418,2,1,83,Preventive maintenance
+71389,20260418,2,2,41,Electrical failure
+71390,20260418,3,2,22,Preventive maintenance
+71391,20260418,3,3,24,Cleaning
+71392,20260418,4,2,41,Preventive maintenance
+71393,20260419,1,1,11,No birds available
+71394,20260419,2,1,31,No birds available
+71395,20260419,4,3,43,Corrective maintenance
+71396,20260420,1,1,42,Cleaning
+71397,20260420,1,3,80,Preventive maintenance
+71398,20260420,2,2,45,Cleaning
+71399,20260420,3,2,25,Corrective maintenance
+71400,20260420,4,3,53,Corrective maintenance
+71401,20260421,2,1,24,Corrective maintenance
+71402,20260421,3,3,19,Electrical failure
+71403,20260421,4,3,37,Corrective maintenance
+71404,20260422,2,1,14,Product changeover
+71405,20260422,4,3,47,Cleaning
+71406,20260423,3,2,13,No birds available
+71407,20260423,4,1,109,Product changeover
+71408,20260424,1,3,52,No birds available
+71409,20260424,2,1,92,Preventive maintenance
+71410,20260424,3,2,113,Corrective maintenance
+71411,20260424,4,3,22,Product changeover
+71412,20260425,1,2,27,Preventive maintenance
+71413,20260425,2,2,29,Corrective maintenance
+71414,20260425,3,2,146,Preventive maintenance
+71415,20260425,4,3,50,Preventive maintenance
+71416,20260426,1,1,34,Corrective maintenance
+71417,20260426,2,2,23,Cleaning
+71418,20260426,3,3,31,Preventive maintenance
+71419,20260426,4,2,46,Electrical failure
+71420,20260427,1,2,76,Preventive maintenance
+71421,20260427,3,1,51,Electrical failure
+71422,20260427,4,3,51,Electrical failure
+71423,20260428,1,1,27,Electrical failure
+71424,20260428,2,1,14,Preventive maintenance
+71425,20260428,2,3,39,No birds available
+71426,20260428,4,2,43,Cleaning
+71427,20260429,1,1,20,Product changeover
+71428,20260429,2,1,6,Product changeover
+71429,20260429,2,3,64,Preventive maintenance
+71430,20260429,4,2,25,No birds available
+71431,20260430,1,3,53,Corrective maintenance
+71432,20260430,2,1,44,Corrective maintenance
+71433,20260430,2,2,66,Product changeover
+71434,20260430,3,2,66,Corrective maintenance
+71435,20260430,4,1,24,No birds available
+71436,20260501,2,2,15,Cleaning
+71437,20260501,2,3,46,Product changeover
+71438,20260501,3,2,48,Cleaning
+71439,20260501,4,1,11,Cleaning
+71440,20260501,4,3,76,Corrective maintenance
+71441,20260502,3,1,29,Product changeover
+71442,20260502,3,2,57,Corrective maintenance
+71443,20260503,1,1,35,Cleaning
+71444,20260503,1,2,46,Preventive maintenance
+71445,20260503,2,2,39,No birds available
+71446,20260503,2,3,14,Cleaning
+71447,20260503,3,1,43,Preventive maintenance
+71448,20260503,3,2,81,Cleaning
+71449,20260504,1,3,32,No birds available
+71450,20260504,3,2,39,Product changeover
+71451,20260504,4,1,43,Electrical failure
+71452,20260504,4,2,33,Electrical failure
+71453,20260505,2,1,73,Product changeover
+71454,20260505,3,2,31,Preventive maintenance
+71455,20260505,3,3,15,Electrical failure
+71456,20260506,1,3,36,Product changeover
+71457,20260506,4,3,19,Cleaning
+71458,20260507,2,1,34,Corrective maintenance
+71459,20260507,3,3,45,Product changeover
+71460,20260507,4,2,22,Corrective maintenance
+71461,20260508,2,1,28,Preventive maintenance
+71462,20260508,2,2,39,No birds available
+71463,20260508,3,1,20,Preventive maintenance
+71464,20260508,3,2,22,Corrective maintenance
+71465,20260508,4,1,28,Corrective maintenance
+71466,20260508,4,3,111,Product changeover
+71467,20260509,1,1,12,Preventive maintenance
+71468,20260509,1,3,22,Cleaning
+71469,20260509,2,1,81,No birds available
+71470,20260509,2,3,63,Cleaning
+71471,20260509,3,1,31,Electrical failure
+71472,20260509,3,2,24,Cleaning
+71473,20260509,4,2,30,Product changeover
+71474,20260510,2,2,37,Cleaning
+71475,20260510,3,2,25,Corrective maintenance
+71476,20260511,2,1,53,Product changeover
+71477,20260511,3,2,76,Electrical failure
+71478,20260511,4,1,26,Preventive maintenance
+71479,20260512,1,1,72,Electrical failure
+71480,20260512,3,1,17,Corrective maintenance
+71481,20260512,3,2,25,Preventive maintenance
+71482,20260513,2,3,37,Preventive maintenance
+71483,20260513,3,2,31,Product changeover
+71484,20260514,3,2,82,Cleaning
+71485,20260514,3,3,26,No birds available
+71486,20260515,2,1,23,Product changeover
+71487,20260515,3,2,46,Preventive maintenance
+71488,20260515,3,3,90,Electrical failure
+71489,20260515,4,2,124,Preventive maintenance
+71490,20260515,4,3,20,Product changeover
+71491,20260516,1,2,66,Product changeover
+71492,20260516,3,2,20,Preventive maintenance
+71493,20260516,4,2,16,Corrective maintenance
+71494,20260516,4,3,30,Preventive maintenance
+71495,20260517,2,1,26,Cleaning
+71496,20260517,3,3,37,Electrical failure
+71497,20260517,4,3,38,No birds available
+71498,20260518,3,2,31,Electrical failure
+71499,20260519,2,2,111,Product changeover
+71500,20260519,3,3,82,No birds available
+71501,20260520,4,1,38,Cleaning
+71502,20260521,1,2,83,No birds available
+71503,20260521,2,1,36,Corrective maintenance
+71504,20260521,2,2,53,No birds available
+71505,20260521,3,2,42,Corrective maintenance
+71506,20260522,2,1,20,Cleaning
+71507,20260522,3,1,49,Product changeover
+71508,20260522,3,2,32,Preventive maintenance
+71509,20260522,4,1,23,Preventive maintenance
+71510,20260522,4,3,41,Product changeover
+71511,20260523,1,1,58,Preventive maintenance
+71512,20260523,2,3,23,No birds available
+71513,20260523,3,2,74,Electrical failure
+71514,20260523,3,3,24,Preventive maintenance
+71515,20260524,1,2,24,Cleaning
+71516,20260524,1,3,29,Electrical failure
+71517,20260524,2,2,21,Product changeover
+71518,20260524,4,3,9,No birds available
+71519,20260525,1,1,22,Product changeover
+71520,20260525,1,3,43,Corrective maintenance
+71521,20260525,2,2,50,Electrical failure
+71522,20260525,2,3,60,Preventive maintenance
+71523,20260525,3,3,13,No birds available
+71524,20260526,2,3,25,Preventive maintenance
+71525,20260526,3,2,41,Product changeover
+71526,20260526,4,1,12,No birds available
+71527,20260527,1,2,37,Product changeover
+71528,20260527,3,1,79,No birds available
+71529,20260527,3,2,60,Product changeover
+71530,20260527,3,3,44,Cleaning
+71531,20260527,4,2,31,Cleaning
+71532,20260528,2,1,17,No birds available
+71533,20260528,2,3,130,Electrical failure
+71534,20260529,3,2,23,Cleaning
+71535,20260529,4,1,98,Preventive maintenance
+71536,20260530,1,2,49,Product changeover
+71537,20260530,2,3,15,Corrective maintenance
+71538,20260530,3,2,54,Corrective maintenance
+71539,20260531,1,1,14,Product changeover
+71540,20260531,3,1,29,No birds available
+71541,20260531,3,2,22,Product changeover
+71542,20260601,2,2,14,Electrical failure
+71543,20260601,3,1,23,Cleaning
+71544,20260601,3,2,33,Corrective maintenance
+71545,20260601,4,2,37,Corrective maintenance
+71546,20260601,4,3,14,Preventive maintenance
+71547,20260602,3,1,37,Corrective maintenance
+71548,20260603,3,1,14,Corrective maintenance
+71549,20260603,4,2,29,Corrective maintenance
+71550,20260604,1,2,44,Electrical failure
+71551,20260604,1,3,15,Product changeover
+71552,20260604,2,1,43,Cleaning
+71553,20260604,3,2,8,Cleaning
+71554,20260605,1,3,51,Cleaning
+71555,20260605,2,1,19,No birds available
+71556,20260605,2,3,29,Cleaning
+71557,20260605,3,1,24,Corrective maintenance
+71558,20260605,3,2,90,Product changeover
+71559,20260605,3,3,46,Preventive maintenance
+71560,20260605,4,1,17,Product changeover
+71561,20260606,1,2,17,Preventive maintenance
+71562,20260606,2,2,111,Electrical failure
+71563,20260606,3,2,24,Preventive maintenance
+71564,20260606,4,1,233,Preventive maintenance
+71565,20260606,4,2,22,Cleaning
+71566,20260607,2,1,9,Cleaning
+71567,20260607,2,2,46,Electrical failure
+71568,20260607,2,3,72,Product changeover
+71569,20260607,3,2,66,Preventive maintenance
+71570,20260607,3,3,121,Corrective maintenance
+71571,20260607,4,2,27,Electrical failure
+71572,20260608,1,1,41,Electrical failure
+71573,20260608,1,3,69,No birds available
+71574,20260608,2,3,27,No birds available
+71575,20260608,3,1,83,Cleaning
+71576,20260608,3,2,13,No birds available
+71577,20260608,3,3,65,Cleaning
+71578,20260609,1,1,24,Electrical failure
+71579,20260609,1,3,60,No birds available
+71580,20260609,2,1,112,No birds available
+71581,20260609,2,2,114,Electrical failure
+71582,20260609,4,3,79,Cleaning
+71583,20260610,2,2,56,Corrective maintenance
+71584,20260610,3,2,39,Electrical failure
+71585,20260611,1,2,76,Product changeover
+71586,20260611,3,2,17,Preventive maintenance
+71587,20260612,1,1,44,Cleaning
+71588,20260612,1,3,85,Cleaning
+71589,20260612,2,1,130,Preventive maintenance
+71590,20260612,3,2,32,Product changeover
+71591,20260612,3,3,45,Preventive maintenance
+71592,20260613,1,2,21,Preventive maintenance
+71593,20260613,3,1,30,No birds available
+71594,20260613,3,2,75,Corrective maintenance
+71595,20260613,3,3,48,Electrical failure
+71596,20260614,2,1,27,Product changeover
+71597,20260614,3,1,17,Corrective maintenance
+71598,20260614,4,3,35,Preventive maintenance
+71599,20260615,3,2,33,Product changeover
+71600,20260615,4,2,61,Corrective maintenance
+71601,20260616,3,2,11,Cleaning
+71602,20260616,3,3,40,Electrical failure
+71603,20260617,1,2,20,Product changeover
+71604,20260617,2,2,45,No birds available
+71605,20260617,3,1,17,Corrective maintenance
+71606,20260617,3,2,24,Product changeover
+71607,20260617,4,3,25,No birds available
+71608,20260618,2,1,63,Product changeover
+71609,20260618,3,2,49,No birds available
+71610,20260619,1,1,42,No birds available
+71611,20260619,2,3,23,Product changeover
+71612,20260619,3,2,61,Electrical failure
+71613,20260620,1,3,100,Cleaning
+71614,20260620,2,3,22,Corrective maintenance
+71615,20260620,4,2,33,Electrical failure
+71616,20260621,1,2,21,Electrical failure
+71617,20260621,3,1,26,Corrective maintenance
+71618,20260621,3,2,38,Preventive maintenance
+71619,20260621,4,3,7,Electrical failure
+71620,20260622,1,1,17,Electrical failure
+71621,20260622,1,2,46,Electrical failure
+71622,20260622,2,1,49,Preventive maintenance
+71623,20260622,2,3,38,Preventive maintenance
+71624,20260622,3,2,73,Electrical failure
+71625,20260622,3,3,19,Electrical failure
+71626,20260623,1,3,37,Product changeover
+71627,20260623,2,1,146,Product changeover
+71628,20260623,3,1,76,Preventive maintenance
+71629,20260623,3,2,38,Electrical failure
+71630,20260624,2,1,37,Corrective maintenance
+71631,20260624,3,1,41,Cleaning
+71632,20260624,3,2,56,Preventive maintenance
+71633,20260624,4,2,31,Electrical failure
+71634,20260625,1,3,42,Corrective maintenance
+71635,20260625,3,2,51,Corrective maintenance
+71636,20260626,1,2,58,Cleaning
+71637,20260626,2,2,32,Preventive maintenance
+71638,20260626,3,2,61,Product changeover
+71639,20260626,3,3,36,Cleaning
+71640,20260626,4,1,28,Corrective maintenance
+71641,20260627,1,2,27,Corrective maintenance
+71642,20260627,1,3,23,No birds available
+71643,20260627,3,2,24,Cleaning
+71644,20260627,4,3,27,Cleaning
+71645,20260628,3,2,43,Electrical failure
+71646,20260629,3,2,37,Corrective maintenance
+71647,20260629,3,3,28,Product changeover
+71648,20260630,4,2,34,Cleaning
+71649,20260630,4,3,18,Corrective maintenance
+71650,20260701,3,2,63,Corrective maintenance
+71651,20260702,2,2,32,Electrical failure
+71652,20260702,2,3,30,Electrical failure
+71653,20260702,3,2,73,Corrective maintenance
+71654,20260702,4,1,69,Cleaning
+71655,20260702,4,2,30,Corrective maintenance
+71656,20260703,1,3,12,Cleaning
+71657,20260703,2,3,29,Electrical failure
+71658,20260703,3,2,55,Preventive maintenance
+71659,20260703,3,3,42,Corrective maintenance
+71660,20260704,3,3,56,Corrective maintenance
+71661,20260704,4,2,19,Product changeover
+71662,20260704,4,3,114,No birds available
+71663,20260705,2,1,22,No birds available
+71664,20260705,2,2,25,Corrective maintenance
+71665,20260705,3,2,22,Corrective maintenance
+71666,20260705,4,3,26,Preventive maintenance
+71667,20260706,2,3,28,Product changeover
+71668,20260706,3,1,56,Product changeover
+71669,20260706,3,3,41,Product changeover
+71670,20260706,4,2,44,Product changeover
+71671,20260707,4,3,46,Electrical failure
+71672,20260708,3,2,16,Corrective maintenance
+71673,20260709,1,3,13,Product changeover
+71674,20260709,2,3,20,Product changeover
+71675,20260709,3,2,27,Corrective maintenance
+71676,20260709,4,3,12,Electrical failure
+71677,20260710,2,1,44,Electrical failure
+71678,20260710,3,2,68,Electrical failure
+71679,20260710,3,3,35,Cleaning
+71680,20260710,4,3,61,Preventive maintenance
+71681,20260711,1,2,78,Product changeover
+71682,20260711,2,3,19,No birds available
+71683,20260711,3,1,32,No birds available
+71684,20260711,3,2,65,Electrical failure
+71685,20260711,4,1,21,Electrical failure
+71686,20260712,2,2,16,No birds available
+71687,20260712,3,2,15,Preventive maintenance
+71688,20260712,3,3,36,Product changeover
+71689,20260713,3,2,22,Corrective maintenance
+71690,20260713,4,1,35,Cleaning
+71692,20260714,3,2,15,No birds available
+71693,20260716,1,1,35,Product changeover
+71694,20260716,4,1,16,No birds available
+71695,20260716,4,3,78,Corrective maintenance
+71696,20260717,1,1,29,No birds available
+71697,20260717,2,1,20,Product changeover
+71698,20260717,2,2,19,Corrective maintenance
+71699,20260717,3,2,73,Electrical failure
+71700,20260718,1,3,42,Electrical failure
+71701,20260718,2,2,49,Corrective maintenance
+71702,20260718,3,2,21,Product changeover
+71703,20260718,4,1,61,Cleaning
+71704,20260718,4,2,48,Corrective maintenance
+71705,20260718,4,3,74,Cleaning
+71706,20260719,1,1,32,No birds available
+71707,20260719,2,2,12,Preventive maintenance
+71708,20260719,3,2,15,Electrical failure
+71709,20260719,4,2,69,Cleaning
+71710,20260720,2,3,33,Corrective maintenance
+71711,20260720,3,1,75,Electrical failure
+71712,20260720,3,2,13,Corrective maintenance
+71713,20260720,3,3,32,Product changeover
+71714,20260721,1,2,28,Cleaning
+71715,20260721,2,1,103,No birds available
+71716,20260721,3,3,18,Corrective maintenance
+71717,20260722,1,1,12,Cleaning
+71718,20260722,3,2,23,Product changeover
+71719,20260722,3,3,53,Cleaning
+71720,20260722,4,1,63,Corrective maintenance
+71721,20260722,4,3,22,No birds available
+71722,20260723,2,2,34,Product changeover
+71723,20260723,3,2,27,Electrical failure
+71724,20260723,4,3,42,Cleaning
+71725,20260724,1,1,96,Product changeover
+71726,20260724,2,2,58,Preventive maintenance
+71727,20260724,3,2,45,Corrective maintenance
+71728,20260724,4,1,8,No birds available
+71729,20260725,1,1,13,Preventive maintenance
+71730,20260725,2,1,26,No birds available
+71731,20260725,3,2,42,Corrective maintenance
+71732,20260726,3,2,48,Electrical failure
+71733,20260726,3,3,27,Electrical failure
+71734,20260726,4,2,21,Electrical failure
+71735,20260727,2,1,63,Preventive maintenance
+71736,20260727,3,2,45,Corrective maintenance
+71737,20260728,1,2,54,Preventive maintenance
+71738,20260728,2,1,25,Cleaning
+71739,20260728,2,2,44,Electrical failure
+71740,20260728,3,2,33,Product changeover
+71741,20260728,4,3,20,Corrective maintenance
+71742,20260729,3,2,48,Electrical failure
+71743,20260729,4,1,23,Electrical failure
+71744,20260730,1,1,22,Electrical failure
+71745,20260730,3,2,17,Cleaning
+71746,20260731,1,3,57,Product changeover
+71747,20260731,3,2,17,No birds available
+71748,20260731,3,3,89,Cleaning
+71749,20260731,4,3,78,Cleaning
+71750,20260801,2,2,69,Cleaning
+71751,20260801,3,1,31,No birds available
+71752,20260801,3,2,78,Product changeover
+71753,20260801,4,2,98,Electrical failure
+71754,20260802,1,2,34,Electrical failure
+71755,20260802,3,2,23,Corrective maintenance
+71756,20260802,3,3,25,Cleaning
+71757,20260802,4,3,54,Cleaning
+71758,20260803,2,1,79,Corrective maintenance
+71759,20260803,3,1,28,Product changeover
+71760,20260803,3,2,42,No birds available
+71761,20260803,4,2,36,Preventive maintenance
+71762,20260803,4,3,61,Corrective maintenance
+71763,20260804,3,1,112,Cleaning
+71764,20260804,3,2,40,Cleaning
+71765,20260804,4,1,37,Cleaning
+71766,20260805,4,1,84,Electrical failure
+71767,20260805,4,2,12,Electrical failure
+71768,20260806,1,3,31,No birds available
+71769,20260806,3,2,139,Preventive maintenance
+71770,20260806,3,3,15,No birds available
+71771,20260806,4,1,21,Electrical failure
+71772,20260807,2,1,21,Cleaning
+71773,20260807,2,3,10,Corrective maintenance
+71774,20260807,3,1,56,Cleaning
+71775,20260808,2,1,31,No birds available
+71776,20260808,3,1,35,Corrective maintenance
+71777,20260808,4,2,16,No birds available
+71778,20260808,4,3,33,Corrective maintenance
+71779,20260809,4,1,39,No birds available
+71780,20260810,1,2,27,No birds available
+71781,20260810,2,1,41,Corrective maintenance
+71782,20260810,3,1,30,Corrective maintenance
+71783,20260810,3,2,39,Cleaning
+71784,20260810,3,3,31,No birds available
+71785,20260810,4,1,92,No birds available
+71786,20260811,1,1,23,Preventive maintenance
+71787,20260811,1,2,45,Corrective maintenance
+71788,20260811,2,1,68,Product changeover
+71789,20260811,2,2,36,Cleaning
+71790,20260811,3,1,8,No birds available
+71791,20260811,3,2,24,No birds available
+71792,20260811,3,3,63,Corrective maintenance
+71793,20260811,4,3,20,Product changeover
+71794,20260812,1,1,31,Product changeover
+71795,20260812,2,1,37,Cleaning
+71796,20260812,2,3,72,No birds available
+71797,20260812,3,2,63,No birds available
+71798,20260813,1,3,33,Electrical failure
+71799,20260813,3,1,29,Electrical failure
+71800,20260813,3,2,40,Product changeover
+71801,20260813,4,1,30,Product changeover
+71802,20260814,1,1,32,Cleaning
+71803,20260814,1,2,81,Product changeover
+71804,20260814,2,3,34,Preventive maintenance
+71805,20260814,3,2,41,No birds available
+71806,20260814,4,2,44,Corrective maintenance
+71807,20260815,1,1,70,Corrective maintenance
+71808,20260815,1,3,48,Electrical failure
+71809,20260815,2,1,55,Electrical failure
+71810,20260815,3,2,23,Electrical failure
+71811,20260815,4,1,76,Preventive maintenance
+71812,20260816,3,2,38,Cleaning
+71813,20260817,3,2,51,Electrical failure
+71814,20260817,3,3,33,Cleaning
+71815,20260817,4,2,37,Preventive maintenance
+71816,20260818,2,3,9,Cleaning
+71817,20260819,1,1,21,Corrective maintenance
+71818,20260819,2,1,29,No birds available
+71819,20260819,2,2,46,Preventive maintenance
+71820,20260820,1,3,33,Electrical failure
+71821,20260820,2,2,173,Electrical failure
+71822,20260820,2,3,23,Cleaning
+71823,20260820,3,2,284,Preventive maintenance
+71824,20260820,4,3,37,Product changeover
+71825,20260821,1,3,43,Cleaning
+71826,20260821,3,1,20,Preventive maintenance
+71827,20260821,3,2,73,Corrective maintenance
+71828,20260821,4,2,29,Corrective maintenance
+71829,20260822,2,1,12,No birds available
+71830,20260822,3,2,45,No birds available
+71831,20260822,4,1,27,Electrical failure
+71832,20260823,1,3,58,Electrical failure
+71833,20260823,2,1,27,Electrical failure
+71834,20260823,3,1,100,Corrective maintenance
+71835,20260823,3,2,18,Cleaning
+71836,20260823,4,1,33,Preventive maintenance
+71837,20260823,4,2,52,Preventive maintenance
+71838,20260824,1,1,78,Product changeover
+71839,20260824,3,1,14,Electrical failure
+71840,20260825,3,2,47,Corrective maintenance
+71841,20260825,3,3,29,Electrical failure
+71842,20260825,4,3,19,Product changeover
+71843,20260826,1,2,14,Preventive maintenance
+71844,20260826,2,2,18,No birds available
+71845,20260826,4,1,92,No birds available
+71846,20260827,3,3,13,Cleaning
+71847,20260827,4,3,30,Product changeover
+71848,20260828,3,2,38,Electrical failure
+71849,20260828,3,3,78,Preventive maintenance
+71850,20260828,4,3,23,Product changeover
+71851,20260829,3,2,62,Product changeover
+71852,20260829,4,3,57,Electrical failure
+71853,20260830,1,3,115,Product changeover
+71854,20260830,3,2,37,No birds available
+71855,20260830,4,2,30,Preventive maintenance
+71856,20260830,4,3,85,Cleaning
+71857,20260831,1,2,68,No birds available
+71858,20260831,3,2,24,Cleaning
+71859,20260901,1,3,65,Cleaning
+71860,20260901,2,2,50,Product changeover
+71861,20260901,2,3,45,Electrical failure
+71862,20260901,4,1,67,Preventive maintenance
+71863,20260902,2,3,73,Cleaning
+71864,20260902,3,2,42,Electrical failure
+71865,20260903,2,2,33,Preventive maintenance
+71866,20260903,2,3,97,Preventive maintenance
+71867,20260903,3,2,54,Cleaning
+71868,20260903,4,3,51,Preventive maintenance
+71869,20260904,1,2,33,No birds available
+71870,20260904,2,2,35,Product changeover
+71871,20260904,3,2,31,Corrective maintenance
+71872,20260904,4,3,31,Corrective maintenance
+71873,20260905,2,3,15,Preventive maintenance
+71874,20260905,3,3,28,No birds available
+71875,20260906,4,3,55,No birds available
+71876,20260907,2,1,20,Electrical failure
+71877,20260907,3,1,37,Product changeover
+71878,20260907,4,1,14,Corrective maintenance
+71879,20260907,4,3,29,Cleaning
+71880,20260908,1,3,19,Electrical failure
+71881,20260908,2,1,43,Corrective maintenance
+71882,20260908,2,2,36,Corrective maintenance
+71883,20260908,2,3,16,Product changeover
+71884,20260908,3,1,196,Cleaning
+71885,20260908,3,3,26,No birds available
+71886,20260908,4,2,30,Corrective maintenance
+71887,20260909,1,1,36,Cleaning
+71888,20260909,3,2,38,Corrective maintenance
+71889,20260909,4,1,81,Product changeover
+71890,20260910,3,2,9,Electrical failure
+71891,20260910,4,2,38,Preventive maintenance
+71892,20260911,1,1,17,No birds available
+71893,20260911,1,3,49,Product changeover
+71894,20260911,3,1,37,No birds available
+71895,20260911,3,2,61,No birds available
+71896,20260911,4,1,37,Preventive maintenance
+71897,20260912,1,1,59,Cleaning
+71898,20260912,1,2,29,Cleaning
+71899,20260912,2,1,30,No birds available
+71900,20260912,3,1,33,Preventive maintenance
+71901,20260912,3,2,83,Electrical failure
+71902,20260912,3,3,19,Product changeover
+71903,20260912,4,3,88,Corrective maintenance
+71904,20260913,2,3,65,Cleaning
+71905,20260913,3,2,52,Cleaning
+71906,20260913,4,2,44,Corrective maintenance
+71907,20260914,2,3,70,Preventive maintenance
+71908,20260914,3,2,22,Electrical failure
+71909,20260914,4,1,14,Electrical failure
+71910,20260915,1,1,19,Corrective maintenance
+71911,20260915,1,2,17,No birds available
+71912,20260915,3,2,29,Product changeover
+71913,20260916,1,1,64,Cleaning
+71914,20260916,2,1,13,Cleaning
+71915,20260916,2,2,28,No birds available
+71916,20260916,2,3,62,Product changeover
+71917,20260916,3,2,16,Preventive maintenance
+71918,20260917,3,1,19,Product changeover
+71919,20260917,3,2,41,Preventive maintenance
+71920,20260917,4,1,48,Cleaning
+71921,20260917,4,3,34,Preventive maintenance
+71922,20260918,2,2,80,Preventive maintenance
+71923,20260918,4,2,46,Cleaning
+71924,20260919,3,2,80,Product changeover
+71925,20260919,3,3,54,Electrical failure
+71926,20260920,1,3,57,Preventive maintenance
+71927,20260920,2,2,22,Product changeover
+71928,20260920,3,2,18,No birds available
+71929,20260920,3,3,17,Electrical failure
+71930,20260920,4,2,18,Product changeover
+71931,20260921,1,1,52,Preventive maintenance
+71932,20260921,1,2,98,Product changeover
+71933,20260921,2,3,70,Cleaning
+71934,20260921,3,2,14,Preventive maintenance
+71935,20260921,3,3,39,Corrective maintenance
+71936,20260922,1,2,32,No birds available
+71937,20260922,1,3,25,Cleaning
+71938,20260922,2,1,22,No birds available
+71939,20260922,2,2,40,No birds available
+71940,20260922,3,2,46,Cleaning
+71941,20260923,1,1,61,Preventive maintenance
+71942,20260923,1,3,59,Electrical failure
+71943,20260923,2,3,90,Cleaning
+71944,20260923,3,1,36,Preventive maintenance
+71945,20260923,4,2,28,Preventive maintenance
+71946,20260924,1,1,51,Preventive maintenance
+71947,20260924,3,2,53,Product changeover
+71948,20260925,1,3,90,Cleaning
+71949,20260925,2,3,74,Cleaning
+71950,20260925,3,2,75,Preventive maintenance
+71951,20260925,4,2,29,Corrective maintenance
+71952,20260926,2,2,46,Electrical failure
+71953,20260926,2,3,19,Preventive maintenance
+71954,20260926,4,3,30,Preventive maintenance
+71955,20260927,1,2,45,Product changeover
+71956,20260927,2,1,42,Corrective maintenance
+71957,20260927,3,1,28,Corrective maintenance
+71958,20260927,3,2,12,Electrical failure
+71959,20260927,4,3,7,Preventive maintenance
+71960,20260928,1,1,45,Preventive maintenance
+71961,20260928,2,3,34,Corrective maintenance
+71962,20260928,3,2,19,Electrical failure
+71963,20260929,2,1,32,Corrective maintenance
+71964,20260929,4,3,73,Product changeover
+71965,20260930,1,1,65,Preventive maintenance
+71966,20260930,2,1,80,Corrective maintenance
+71967,20260930,3,2,32,Electrical failure
+71968,20260930,4,2,83,No birds available

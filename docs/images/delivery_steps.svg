@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="690" viewBox="0 0 1920 690">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D0C0E"/><stop offset="1" stop-color="#17151A"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FDBA74"/><stop offset="1" stop-color="#C2410C"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1800 0) scale(900)">
+    <stop stop-color="#F97316" stop-opacity="0.16"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity="0.04"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#FDBA74"/></marker>
+  <marker id="arrow-normal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#FDBA74"/></marker>
+  <marker id="arrow-good" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#34D399"/></marker>
+  <marker id="arrow-bad" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#F0614D"/></marker>
+</defs>
+<rect width="1920" height="690" rx="28" fill="url(#bg)"/>
+<rect width="1920" height="690" rx="28" fill="url(#glow)"/>
+<rect width="1920" height="690" rx="28" fill="url(#dots)"/>
+<g id="Header">
+<circle cx="88" cy="78" r="30" fill="none" stroke="url(#accent)" stroke-width="2.5"/><g transform="translate(70.0 60.0) scale(1.5000)" fill="none" stroke="#FDBA74" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.5h11v9h-11zM13.5 9.5h4l3 3v3h-7z"/><circle cx="6.5" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></g>
+<text x="136.0" y="70.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="600" fill="#FDBA74" text-anchor="start" letter-spacing="4">HOW IT WAS BUILT</text>
+<text x="136.0" y="108.0" font-family="Inter, Segoe UI, sans-serif" font-size="38" font-weight="800" fill="#F4F1F5" text-anchor="start">From a messy ERP to a trusted operations app</text>
+<text x="1860.0" y="70.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="500" fill="#B0A9B5" text-anchor="end">Oracle · Apache Hop · PostgreSQL · SQL · Qlik Sense</text>
+<text x="1860.0" y="100.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="400" fill="#7E7684" text-anchor="end">plan → build → prove → run</text>
+<rect x="60" y="138" width="1800" height="1.5" fill="#37333C"/><rect x="60" y="137.5" width="120" height="2.5" fill="url(#accent)"/>
+</g>
+<rect x="179.1" y="254" width="1561.7" height="3" rx="1.5" fill="url(#accent)"/>
+<rect x="60.0" y="188" width="238.3" height="34" rx="17" fill="#1B191E" stroke="#37333C"/>
+<text x="179.1" y="211.0" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FDBA74" text-anchor="middle" letter-spacing="4">PLAN</text>
+<rect x="320.3" y="188" width="1019.1" height="34" rx="17" fill="#1B191E" stroke="#37333C"/>
+<text x="829.9" y="211.0" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FDBA74" text-anchor="middle" letter-spacing="4">BUILD</text>
+<rect x="1361.4" y="188" width="498.6" height="34" rx="17" fill="#1B191E" stroke="#37333C"/>
+<text x="1610.7" y="211.0" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FDBA74" text-anchor="middle" letter-spacing="4">SERVE &amp; PROVE</text>
+<circle cx="179.1" cy="255.5" r="17" fill="#0D0C0E" stroke="#FDBA74" stroke-width="2.5"/>
+<text x="179.1" y="262.0" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#F4F1F5" text-anchor="middle">1</text>
+<rect x="60.0" y="300" width="238.3" height="350.3" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="82.0" y="300" width="56" height="3" rx="1.5" fill="url(#accent)"/>
+<circle cx="110.0" cy="358" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(93.0 341.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 20 20"/></g>
+<text x="82.0" y="428.0" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="800" fill="#F4F1F5" text-anchor="start">Understand the ERP</text>
+<text x="82.0" y="465.0" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Tables, update dates</text><text x="82.0" y="488.2" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">and the defects the</text><text x="82.0" y="511.5" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">plants live with.</text>
+<rect x="76.0" y="582.3" width="206.3" height="48" rx="12" fill="#232027"/>
+<text x="90.0" y="601.3" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DELIVERABLE</text>
+<text x="90.0" y="620.3" font-family="JetBrains Mono, Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" text-anchor="start">oracle/</text>
+<circle cx="439.4" cy="255.5" r="17" fill="#0D0C0E" stroke="#FDBA74" stroke-width="2.5"/>
+<text x="439.4" y="262.0" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#F4F1F5" text-anchor="middle">2</text>
+<rect x="320.3" y="300" width="238.3" height="350.3" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="342.3" y="300" width="56" height="3" rx="1.5" fill="url(#accent)"/>
+<circle cx="370.3" cy="358" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(353.3 341.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></g>
+<text x="342.3" y="428.0" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="800" fill="#F4F1F5" text-anchor="start">Extract</text><text x="342.3" y="451.0" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="800" fill="#F4F1F5" text-anchor="start">incrementally</text>
+<text x="342.3" y="488.0" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Hop reads only what</text><text x="342.3" y="511.2" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">changed since the last</text><text x="342.3" y="534.5" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">good run.</text>
+<rect x="336.3" y="582.3" width="206.3" height="48" rx="12" fill="#232027"/>
+<text x="350.3" y="601.3" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DELIVERABLE</text>
+<text x="350.3" y="620.3" font-family="JetBrains Mono, Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" text-anchor="start">hop/pipelines</text>
+<circle cx="699.7" cy="255.5" r="17" fill="#0D0C0E" stroke="#FDBA74" stroke-width="2.5"/>
+<text x="699.7" y="262.0" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#F4F1F5" text-anchor="middle">3</text>
+<rect x="580.6" y="300" width="238.3" height="350.3" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="602.6" y="300" width="56" height="3" rx="1.5" fill="url(#accent)"/>
+<circle cx="630.6" cy="358" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(613.6 341.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></g>
+<text x="602.6" y="428.0" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">Model</text>
+<text x="602.6" y="467.3" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Star schema with merged</text><text x="602.6" y="490.6" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">farms and an Unknown</text><text x="602.6" y="513.8" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">member per dimension.</text>
+<rect x="596.6" y="582.3" width="206.3" height="48" rx="12" fill="#232027"/>
+<text x="610.6" y="601.3" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DELIVERABLE</text>
+<text x="610.6" y="620.3" font-family="JetBrains Mono, Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" text-anchor="start">sql/dw</text>
+<circle cx="960.0" cy="255.5" r="17" fill="#0D0C0E" stroke="#FDBA74" stroke-width="2.5"/>
+<text x="960.0" y="262.0" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#F4F1F5" text-anchor="middle">4</text>
+<rect x="840.9" y="300" width="238.3" height="350.3" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="862.9" y="300" width="56" height="3" rx="1.5" fill="url(#accent)"/>
+<circle cx="890.9" cy="358" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(873.9 341.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16l-6 7.5V19l-4 1.5v-8z"/></g>
+<text x="862.9" y="428.0" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">Load and reject</text>
+<text x="862.9" y="467.3" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Upserts for</text><text x="862.9" y="490.6" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">corrections; bad rows</text><text x="862.9" y="513.8" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">go to a reject table</text><text x="862.9" y="537.0" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">with a reason.</text>
+<rect x="856.9" y="582.3" width="206.3" height="48" rx="12" fill="#232027"/>
+<text x="870.9" y="601.3" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DELIVERABLE</text>
+<text x="870.9" y="620.3" font-family="JetBrains Mono, Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" text-anchor="start">sql/dml</text>
+<circle cx="1220.3" cy="255.5" r="17" fill="#0D0C0E" stroke="#FDBA74" stroke-width="2.5"/>
+<text x="1220.3" y="262.0" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#F4F1F5" text-anchor="middle">5</text>
+<rect x="1101.1" y="300" width="238.3" height="350.3" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1123.1" y="300" width="56" height="3" rx="1.5" fill="url(#accent)"/>
+<circle cx="1151.1" cy="358" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(1134.1 341.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.9-4.3-1.7-7.5-5.3-7.5-9.9V6z"/><path d="M8.8 12.2l2.2 2.2 4.3-4.6"/></g>
+<text x="1123.1" y="428.0" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">Gate the release</text>
+<text x="1123.1" y="467.3" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Critical checks stop</text><text x="1123.1" y="490.6" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">the run and keep the</text><text x="1123.1" y="513.8" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">watermarks.</text>
+<rect x="1117.1" y="582.3" width="206.3" height="48" rx="12" fill="#232027"/>
+<text x="1131.1" y="601.3" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DELIVERABLE</text>
+<text x="1131.1" y="620.3" font-family="JetBrains Mono, Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" text-anchor="start">load_warehouse.hwf</text>
+<circle cx="1480.6" cy="255.5" r="17" fill="#0D0C0E" stroke="#FDBA74" stroke-width="2.5"/>
+<text x="1480.6" y="262.0" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#F4F1F5" text-anchor="middle">6</text>
+<rect x="1361.4" y="300" width="238.3" height="350.3" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1383.4" y="300" width="56" height="3" rx="1.5" fill="url(#accent)"/>
+<circle cx="1411.4" cy="358" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(1394.4 341.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></g>
+<text x="1383.4" y="428.0" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">Serve Qlik</text>
+<text x="1383.4" y="467.3" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Signed CSV export, QVD</text><text x="1383.4" y="490.6" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">layer, link table and</text><text x="1383.4" y="513.8" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">measures.</text>
+<rect x="1377.4" y="582.3" width="206.3" height="48" rx="12" fill="#232027"/>
+<text x="1391.4" y="601.3" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DELIVERABLE</text>
+<text x="1391.4" y="620.3" font-family="JetBrains Mono, Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" text-anchor="start">qlik/</text>
+<circle cx="1740.9" cy="255.5" r="17" fill="#0D0C0E" stroke="#FDBA74" stroke-width="2.5"/>
+<text x="1740.9" y="262.0" font-family="Inter, Segoe UI, sans-serif" font-size="16" font-weight="800" fill="#F4F1F5" text-anchor="middle">7</text>
+<rect x="1621.7" y="300" width="238.3" height="350.3" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1643.7" y="300" width="56" height="3" rx="1.5" fill="url(#accent)"/>
+<circle cx="1671.7" cy="358" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(1654.7 341.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M10 8.5l5 3.5-5 3.5z"/></g>
+<text x="1643.7" y="428.0" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">Prove it in CI</text>
+<text x="1643.7" y="467.3" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Real Oracle, PostgreSQL</text><text x="1643.7" y="490.6" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">and Hop: first load,</text><text x="1643.7" y="513.8" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">incremental, rerun,</text><text x="1643.7" y="537.0" font-family="Inter, Segoe UI, sans-serif" font-size="15.5" font-weight="400" fill="#B0A9B5" text-anchor="start">broken load.</text>
+<rect x="1637.7" y="582.3" width="206.3" height="48" rx="12" fill="#232027"/>
+<text x="1651.7" y="601.3" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DELIVERABLE</text>
+<text x="1651.7" y="620.3" font-family="JetBrains Mono, Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" text-anchor="start">tests/integration</text>
+</svg>

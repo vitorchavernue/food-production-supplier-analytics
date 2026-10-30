@@ -1,0 +1,214 @@
+///$tab Main
+// =====================================================================================================
+// Food Production & Supplier Analytics - Qlik Sense load script
+// -----------------------------------------------------------------------------------------------------
+// Source: the CSV files in qlik/data, exported from the PostgreSQL warehouse by the pipeline
+// (src/food_dw/export.py). The app never reads the ERP directly: it gets the same reconciled numbers
+// that passed the quality gate of the Hop workflow.
+//
+// Two layers, the usual Qlik practice:
+//   1. Extract: each CSV is read once and stored as a QVD (Qlik's fast columnar file)
+//   2. Model:   the data model is built from the QVDs, with business field names, a link table and
+//               the measures as variables
+//
+// Before the first reload create a folder data connection called "FoodProduction" pointing to the
+// qlik/data folder of the repository (Qlik Sense Desktop). In Qlik Cloud, upload the CSV files to
+// "Data files" and change vSource and vQvd to 'lib://DataFiles/'.
+// =====================================================================================================
+
+SET ThousandSep=',';
+SET DecimalSep='.';
+SET MoneyThousandSep=',';
+SET MoneyDecimalSep='.';
+SET DateFormat='YYYY-MM-DD';
+SET TimestampFormat='YYYY-MM-DD hh:mm:ss';
+SET FirstWeekDay=6;
+SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec';
+SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun';
+
+SET vSource = 'lib://FoodProduction/';      // CSV files exported by the pipeline
+SET vQvd    = 'lib://FoodProduction/qvd/';  // QVD layer (created by this script)
+
+
+///$tab 1. Extract (CSV to QVD)
+// -----------------------------------------------------------------------------------------------------
+// Every exported table becomes a QVD with the same name. Reloading the model from QVDs is much faster
+// than parsing CSV, and in a real deployment this tab would run in a separate "extractor" app.
+// -----------------------------------------------------------------------------------------------------
+FOR EACH vTable IN 'dim_date', 'dim_plant', 'dim_supplier', 'dim_product', 'fact_lot_receipt', 'fact_production', 'fact_quality_inspection', 'fact_line_stop', 'rejected_record', 'check_result'
+
+    [$(vTable)]:
+    LOAD *
+    FROM [$(vSource)$(vTable).csv]
+    (txt, utf8, embedded labels, delimiter is ',', msq);
+
+    STORE [$(vTable)] INTO [$(vQvd)$(vTable).qvd] (qvd);
+    DROP TABLE [$(vTable)];
+
+NEXT vTable
+
+
+///$tab 2. Dimensions
+// -----------------------------------------------------------------------------------------------------
+// Business names for every field. Booleans arrive as 1/0 and become dual values (text + number), so
+// they read well in filters and can still be summed.
+// -----------------------------------------------------------------------------------------------------
+Calendar:
+LOAD
+    date_key                                        AS DateKey,
+    Date(full_date)                                 AS Date,
+    year                                            AS Year,
+    'Q' & quarter                                   AS Quarter,
+    Dual(month_name, month)                         AS Month,
+    Date(MonthStart(full_date), 'YYYY-MM')          AS YearMonth,
+    Dual(If(is_summer = 1, 'Summer (Dec-Mar)', 'Rest of the year'), is_summer) AS Season,
+    Dual(If(is_weekend = 1, 'Weekend', 'Weekday'), is_weekend)                 AS DayType
+FROM [$(vQvd)dim_date.qvd] (qvd);
+
+Plants:
+LOAD
+    plant_key            AS PlantKey,
+    plant_name           AS Plant,
+    city                 AS [Plant City],
+    state                AS [Plant State],
+    region               AS Region,
+    capacity_birds_day   AS [Capacity (birds/day)]
+FROM [$(vQvd)dim_plant.qvd] (qvd)
+WHERE plant_key > 0;     // the "Unknown" member never has facts (a critical quality check guarantees it)
+
+Farms:
+LOAD
+    supplier_key         AS SupplierKey,
+    legal_name           AS Farm,
+    city                 AS [Farm City],
+    state                AS [Farm State],
+    distance_km          AS [Distance (km)],
+    distance_band        AS [Distance Band],
+    Date(integration_start) AS [Integrated Since],
+    Dual(If(is_active = 1, 'Active', 'Inactive'), is_active) AS [Farm Status]
+FROM [$(vQvd)dim_supplier.qvd] (qvd)
+WHERE supplier_key > 0;
+
+Products:
+LOAD
+    product_key          AS ProductKey,
+    description          AS Product,
+    category             AS [Product Category],
+    standard_yield       AS [Standard Yield]
+FROM [$(vQvd)dim_product.qvd] (qvd)
+WHERE product_key > 0;
+
+
+///$tab 3. Facts and link table
+// -----------------------------------------------------------------------------------------------------
+// Lots and line stops are both "per day and per plant". Linking each of them straight to Calendar and
+// Plants would create a loop (two paths between the same tables). The classic answer is a link table:
+// both facts carry one composite key, %DatePlant, and only the link table points to Calendar and Plants.
+//
+// Production orders and inspections hang from their lot (LotNumber) and their order (OrderNumber), so
+// they inherit the day, the plant and the farm of the lot without extra keys.
+// The two "line" fields have different names on purpose: a stop on line 2 is not related to an order
+// produced on line 2 of another plant.
+// -----------------------------------------------------------------------------------------------------
+Lots:
+LOAD
+    date_key & '|' & plant_key   AS %DatePlant,
+    lot_number                   AS LotNumber,
+    supplier_key                 AS SupplierKey,
+    status                       AS [Lot Status],
+    Timestamp(scheduled_at)      AS [Scheduled At],
+    Timestamp(arrived_at)        AS [Arrived At],
+    delay_minutes                AS [Delay (min)],
+    is_on_time                   AS OnTime,
+    birds                        AS Birds,
+    live_weight_kg               AS LiveWeightKg,
+    doa_birds                    AS DOABirds,
+    condemned_kg                 AS CondemnedKg
+FROM [$(vQvd)fact_lot_receipt.qvd] (qvd);
+
+LineStops:
+LOAD
+    date_key & '|' & plant_key   AS %DatePlant,
+    stop_number                  AS StopNumber,
+    line_number                  AS [Stop Line],
+    minutes                      AS StopMinutes,
+    reason_group                 AS [Stop Reason]
+FROM [$(vQvd)fact_line_stop.qvd] (qvd);
+
+// Every day x plant that has a lot or a stop, once
+TmpDatePlant:
+LOAD date_key, plant_key FROM [$(vQvd)fact_lot_receipt.qvd] (qvd);
+CONCATENATE (TmpDatePlant)
+LOAD date_key, plant_key FROM [$(vQvd)fact_line_stop.qvd] (qvd);
+
+LinkDatePlant:
+LOAD DISTINCT
+    date_key & '|' & plant_key   AS %DatePlant,
+    date_key                     AS DateKey,
+    plant_key                    AS PlantKey
+RESIDENT TmpDatePlant;
+
+DROP TABLE TmpDatePlant;
+
+Production:
+LOAD
+    order_number                 AS OrderNumber,
+    lot_number                   AS LotNumber,
+    product_key                  AS ProductKey,
+    line_number                  AS [Production Line],
+    duration_minutes             AS [Duration (min)],
+    planned_kg                   AS PlannedKg,
+    produced_kg                  AS ProducedKg
+FROM [$(vQvd)fact_production.qvd] (qvd);
+
+Inspections:
+LOAD
+    inspection_number            AS InspectionNumber,
+    order_number                 AS OrderNumber,
+    sample_size                  AS SampleSize,
+    defects                      AS Defects,
+    is_approved                  AS Approved
+FROM [$(vQvd)fact_quality_inspection.qvd] (qvd);
+
+
+///$tab 4. Data quality (islands)
+// -----------------------------------------------------------------------------------------------------
+// Rejected ERP rows and the quality checks of the last run. They are "data islands" on purpose: no field
+// in common with the model, so they never filter the business numbers.
+// -----------------------------------------------------------------------------------------------------
+RejectedRows:
+LOAD
+    source_table                 AS [Rejected ERP Table],
+    source_key                   AS [Rejected ERP Key],
+    reason                       AS [Reject Reason],
+    amount                       AS [Rejected Kg]
+FROM [$(vQvd)rejected_record.qvd] (qvd);
+
+QualityChecks:
+LOAD
+    check_name                   AS [Check],
+    severity                     AS [Check Severity],
+    expected                     AS [Check Expected],
+    actual                       AS [Check Actual],
+    Dual(If(passed = 1, 'Passed', 'Failed'), passed) AS [Check Result]
+FROM [$(vQvd)check_result.qvd] (qvd);
+
+
+///$tab 5. Measures
+// -----------------------------------------------------------------------------------------------------
+// One definition per indicator, used by every chart as $(vName). Rates are always a sum divided by a
+// sum (never an average of percentages), so they stay correct for any selection.
+// Only received lots count: cancelled loads have no birds and no weight.
+// -----------------------------------------------------------------------------------------------------
+SET vLotsReceived   = Count({<[Lot Status]={'received'}>} LotNumber);
+SET vBirds          = Sum({<[Lot Status]={'received'}>} Birds);
+SET vLiveWeightTon  = Sum({<[Lot Status]={'received'}>} LiveWeightKg) / 1000;
+SET vDOAPct         = Sum({<[Lot Status]={'received'}>} DOABirds) / Sum({<[Lot Status]={'received'}>} Birds);
+SET vOnTimePct      = Sum({<[Lot Status]={'received'}>} OnTime) / Count({<[Lot Status]={'received'}>} LotNumber);
+SET vCondemnedPct   = Sum({<[Lot Status]={'received'}>} CondemnedKg) / Sum({<[Lot Status]={'received'}>} LiveWeightKg);
+SET vYieldPct       = Sum(ProducedKg) / Sum({<[Lot Status]={'received'}>} LiveWeightKg);
+SET vOutputVsPlan   = Sum(ProducedKg) / Sum(PlannedKg);
+SET vApprovalPct    = Sum(Approved) / Count(InspectionNumber);
+SET vDefectRate     = Sum(Defects) / Sum(SampleSize);
+SET vStopMinutes    = Sum(StopMinutes);
+SET vRejectedRows   = Count([Rejected ERP Key]);

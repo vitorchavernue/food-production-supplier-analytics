@@ -1,0 +1,15 @@
+check_name,severity,expected,actual,passed
+Every ERP row is in the warehouse or rejected: INSPECAO_QUALIDADE,critical,130485.00,130485.00,1
+Every ERP row is in the warehouse or rejected: ORDEM_PRODUCAO,critical,130485.00,130485.00,1
+Every ERP row is in the warehouse or rejected: PARADA_LINHA,critical,1968.00,1968.00,1
+Every ERP row is in the warehouse or rejected: RECEBIMENTO_LOTE,critical,17864.00,17864.00,1
+Every kilo is in the warehouse or rejected: ORDEM_PRODUCAO,critical,727540540.33,727540540.33,1
+Every kilo is in the warehouse or rejected: RECEBIMENTO_LOTE,critical,1029622191.24,1029622191.24,1
+"Facts pointing to an unknown plant, farm or product",critical,0.00,0.00,1
+Farms with more than one row in the supplier dimension,critical,0.00,0.00,1
+ERP codes merged into an existing farm (same CNPJ registered twice),info,,4.00,1
+Lots with yield outside 65%-80% of the live weight,info,,282.00,1
+Rejected rows waiting for a fix in the ERP: INSPECAO_QUALIDADE,info,,321.00,1
+Rejected rows waiting for a fix in the ERP: ORDEM_PRODUCAO,info,,245.00,1
+Rejected rows waiting for a fix in the ERP: PARADA_LINHA,info,,11.00,1
+Rejected rows waiting for a fix in the ERP: RECEBIMENTO_LOTE,info,,47.00,1

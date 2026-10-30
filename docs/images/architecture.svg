@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1434" viewBox="0 0 1920 1434">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0D0C0E"/><stop offset="1" stop-color="#17151A"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FDBA74"/><stop offset="1" stop-color="#C2410C"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1800 0) scale(900)">
+    <stop stop-color="#F97316" stop-opacity="0.16"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#fff" fill-opacity="0.04"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0 0 L10 5 L0 10 z" fill="#FDBA74"/></marker>
+  <marker id="arrow-normal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#FDBA74"/></marker>
+  <marker id="arrow-good" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#34D399"/></marker>
+  <marker id="arrow-bad" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#F0614D"/></marker>
+</defs>
+<rect width="1920" height="1434" rx="28" fill="url(#bg)"/>
+<rect width="1920" height="1434" rx="28" fill="url(#glow)"/>
+<rect width="1920" height="1434" rx="28" fill="url(#dots)"/>
+<g id="Header">
+<circle cx="88" cy="78" r="30" fill="none" stroke="url(#accent)" stroke-width="2.5"/><g transform="translate(70.0 60.0) scale(1.5000)" fill="none" stroke="#FDBA74" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.5h11v9h-11zM13.5 9.5h4l3 3v3h-7z"/><circle cx="6.5" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></g>
+<text x="136.0" y="70.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="600" fill="#FDBA74" text-anchor="start" letter-spacing="4">ARCHITECTURE</text>
+<text x="136.0" y="108.0" font-family="Inter, Segoe UI, sans-serif" font-size="38" font-weight="800" fill="#F4F1F5" text-anchor="start">Food Production &amp; Supplier Analytics</text>
+<text x="1860.0" y="70.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="500" fill="#B0A9B5" text-anchor="end">Oracle · Apache Hop · PostgreSQL · SQL · Qlik Sense</text>
+<text x="1860.0" y="100.0" font-family="Inter, Segoe UI, sans-serif" font-size="17" font-weight="400" fill="#7E7684" text-anchor="end">Oracle ERP → Hop incremental extraction → staging → star schema → quality gate → Qlik Sense</text>
+<rect x="60" y="138" width="1800" height="1.5" fill="#37333C"/><rect x="60" y="137.5" width="120" height="2.5" fill="url(#accent)"/>
+</g>
+<rect x="60" y="172" width="1800" height="92" rx="20" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<circle cx="112" cy="218" r="26" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(96.0 202.0) scale(1.3333)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="6" r="2.5"/><circle cx="18.5" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 6h8M7 8l3.6 7.8M17 8l-3.6 7.8"/></g>
+<text x="154.0" y="212.0" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FDBA74" text-anchor="start" letter-spacing="3">ORCHESTRATION</text>
+<text x="154.0" y="238.0" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#F4F1F5" text-anchor="start">Apache Hop workflow load_warehouse.hwf · daily</text>
+<rect x="700.0" y="202.0" width="114.0" height="29" rx="14.5" fill="#232027" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="1.2"/><text x="712.0" y="220.5" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="600" fill="#38BDF8" text-anchor="start">hop-run.sh</text>
+<rect x="840.0" y="202.0" width="91.2" height="29" rx="14.5" fill="#232027" stroke="#FDBA74" stroke-opacity="0.6" stroke-width="1.2"/><text x="852.0" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#FDBA74" text-anchor="start">open run</text>
+<path d="M937.2 216.5 h14" stroke="#FDBA74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="959.2" y="202.0" width="133.2" height="29" rx="14.5" fill="#232027" stroke="#FDBA74" stroke-opacity="0.6" stroke-width="1.2"/><text x="971.2" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#FDBA74" text-anchor="start">8 extractions</text>
+<path d="M1098.4 216.5 h14" stroke="#FDBA74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1120.4" y="202.0" width="57.6" height="29" rx="14.5" fill="#232027" stroke="#FDBA74" stroke-opacity="0.6" stroke-width="1.2"/><text x="1132.4" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#FDBA74" text-anchor="start">dims</text>
+<path d="M1184.0 216.5 h14" stroke="#FDBA74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1206.0" y="202.0" width="66.0" height="29" rx="14.5" fill="#232027" stroke="#FDBA74" stroke-opacity="0.6" stroke-width="1.2"/><text x="1218.0" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#FDBA74" text-anchor="start">facts</text>
+<path d="M1278.0 216.5 h14" stroke="#FDBA74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1300.0" y="202.0" width="124.8" height="29" rx="14.5" fill="#232027" stroke="#FDBA74" stroke-opacity="0.6" stroke-width="1.2"/><text x="1312.0" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#FDBA74" text-anchor="start">quality gate</text>
+<path d="M1430.8 216.5 h14" stroke="#FDBA74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1452.8" y="202.0" width="99.6" height="29" rx="14.5" fill="#232027" stroke="#FDBA74" stroke-opacity="0.6" stroke-width="1.2"/><text x="1464.8" y="220.5" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="600" fill="#FDBA74" text-anchor="start">close run</text>
+<g id="Layer 1 Oracle ERP">
+<rect x="60.0" y="300" width="270.0" height="604.6" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="86.0" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="112.0" cy="356" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(95.0 339.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7" ry="2.8"/><path d="M5 5.5v13c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8v-13"/><path d="M5 12c0 1.5 3.1 2.8 7 2.8s7-1.3 7-2.8"/></g>
+<text x="304.0" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">01</text>
+<text x="86.0" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Oracle ERP</text>
+<text x="86.0" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#FDBA74" text-anchor="start">erp · FREEPDB1</text>
+<text x="86.0" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Oracle Database 23ai Free</text>
+<rect x="86.0" y="486.1" width="218.0" height="1" fill="#37333C"/>
+<rect x="86.0" y="500.1" width="218.0" height="28" rx="8" fill="#232027" stroke="#37333C"/>
+<text x="96.0" y="519.1" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#F4F1F5" text-anchor="start">RECEBIMENTO_LOTE</text>
+<rect x="86.0" y="536.1" width="218.0" height="28" rx="8" fill="#232027" stroke="#37333C"/>
+<text x="96.0" y="555.1" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#F4F1F5" text-anchor="start">ORDEM_PRODUCAO</text>
+<rect x="86.0" y="572.1" width="218.0" height="28" rx="8" fill="#232027" stroke="#37333C"/>
+<text x="96.0" y="591.1" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#F4F1F5" text-anchor="start">INSPECAO_QUALIDADE</text>
+<rect x="86.0" y="608.1" width="218.0" height="28" rx="8" fill="#232027" stroke="#37333C"/>
+<text x="96.0" y="627.1" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="500" fill="#F4F1F5" text-anchor="start">PARADA_LINHA</text>
+<circle cx="91.0" cy="673.1" r="3.5" fill="#F97316"/>
+<text x="104.0" y="678.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">4 plants, 124 farm rows,</text><text x="104.0" y="699.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">21 months</text>
+<circle cx="91.0" cy="727.7" r="3.5" fill="#F97316"/>
+<text x="104.0" y="732.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Real ERP defects:</text><text x="104.0" y="754.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">duplicated CNPJ, bad</text><text x="104.0" y="775.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">weights, orphans</text>
+<rect x="78.0" y="826.6" width="234.0" height="60" rx="12" fill="#232027"/>
+<text x="92.0" y="853.6" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">The source the business</text><text x="92.0" y="871.5" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">already trusts</text>
+</g>
+<path d="M336.0 602.3 h22" stroke="#FDBA74" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 2 Extraction">
+<rect x="366.0" y="300" width="270.0" height="604.6" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="392.0" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="418.0" cy="356" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(401.0 339.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></g>
+<text x="610.0" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">02</text>
+<text x="392.0" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Extraction</text>
+<text x="392.0" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#FDBA74" text-anchor="start">hop/pipelines/extract_*.hpl</text>
+<text x="392.0" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Apache Hop · watermark</text>
+<rect x="392.0" y="486.1" width="218.0" height="1" fill="#37333C"/>
+<circle cx="397.0" cy="515.1" r="3.5" fill="#F97316"/>
+<text x="410.0" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Only rows changed since</text><text x="410.0" y="541.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">the last good run</text>
+<circle cx="397.0" cy="569.7" r="3.5" fill="#F97316"/>
+<text x="410.0" y="574.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">5-minute overlap: no</text><text x="410.0" y="596.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">late commit is lost</text>
+<circle cx="397.0" cy="624.3" r="3.5" fill="#F97316"/>
+<text x="410.0" y="629.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">CNPJ digits and trimmed</text><text x="410.0" y="650.6" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">names on the way</text>
+<rect x="384.0" y="826.6" width="234.0" height="60" rx="12" fill="#232027"/>
+<text x="398.0" y="853.6" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Light on the ERP, safe to</text><text x="398.0" y="871.5" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">rerun</text>
+</g>
+<path d="M642.0 602.3 h22" stroke="#FDBA74" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 3 Staging">
+<rect x="672.0" y="300" width="270.0" height="604.6" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="698.0" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="724.0" cy="356" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(707.0 339.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 21 8l-9 4.5L3 8z"/><path d="M3 12.5l9 4.5 9-4.5M3 16.5l9 4.5 9-4.5"/></g>
+<text x="916.0" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">03</text>
+<text x="698.0" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Staging</text>
+<text x="698.0" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#FDBA74" text-anchor="start">stg.* · PostgreSQL 16</text>
+<text x="698.0" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">raw copy of the changes</text>
+<rect x="698.0" y="486.1" width="218.0" height="1" fill="#37333C"/>
+<circle cx="703.0" cy="515.1" r="3.5" fill="#F97316"/>
+<text x="716.0" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Same columns as the ERP</text>
+<circle cx="703.0" cy="548.4" r="3.5" fill="#F97316"/>
+<text x="716.0" y="553.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Truncated at every run</text>
+<circle cx="703.0" cy="581.7" r="3.5" fill="#F97316"/>
+<text x="716.0" y="586.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">ERP totals kept for</text><text x="716.0" y="608.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">reconciliation</text>
+<rect x="690.0" y="826.6" width="234.0" height="60" rx="12" fill="#232027"/>
+<text x="704.0" y="853.6" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">The ERP is read once per run</text>
+</g>
+<path d="M948.0 602.3 h22" stroke="#FDBA74" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 4 Warehouse">
+<rect x="978.0" y="300" width="270.0" height="604.6" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1004.0" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="1030.0" cy="356" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(1013.0 339.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></g>
+<text x="1222.0" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">04</text>
+<text x="1004.0" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Warehouse</text>
+<text x="1004.0" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#FDBA74" text-anchor="start">dw.* · sql/dml/</text>
+<text x="1004.0" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">star schema · upserts</text>
+<rect x="1004.0" y="486.1" width="218.0" height="1" fill="#37333C"/>
+<text x="1004.0" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">DIMENSIONS</text>
+<rect x="1004.0" y="534.1" width="51.2" height="28" rx="14" fill="#232027" stroke="#A3E635" stroke-opacity="0.55"/>
+<text x="1014.0" y="553.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#A3E635" text-anchor="start">date</text>
+<rect x="1063.2" y="534.1" width="59.0" height="28" rx="14" fill="#232027" stroke="#A3E635" stroke-opacity="0.55"/>
+<text x="1073.2" y="553.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#A3E635" text-anchor="start">plant</text>
+<rect x="1130.2" y="534.1" width="51.2" height="28" rx="14" fill="#232027" stroke="#A3E635" stroke-opacity="0.55"/>
+<text x="1140.2" y="553.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#A3E635" text-anchor="start">farm</text>
+<rect x="1004.0" y="570.1" width="74.6" height="28" rx="14" fill="#232027" stroke="#A3E635" stroke-opacity="0.55"/>
+<text x="1014.0" y="589.1" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#A3E635" text-anchor="start">product</text>
+<text x="1004.0" y="632.1" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#7E7684" text-anchor="start" letter-spacing="2">FACTS</text>
+<rect x="1004.0" y="646.1" width="218.0" height="46" rx="10" fill="#232027" stroke="#38BDF8" stroke-opacity="0.5"/>
+<text x="1018.0" y="666.1" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">lots · production</text>
+<text x="1018.0" y="684.1" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#38BDF8" text-anchor="start">receipt and output</text>
+<rect x="1004.0" y="700.1" width="218.0" height="46" rx="10" fill="#232027" stroke="#38BDF8" stroke-opacity="0.5"/>
+<text x="1018.0" y="720.1" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">inspections · stops</text>
+<text x="1018.0" y="738.1" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#38BDF8" text-anchor="start">quality and lines</text>
+<rect x="996.0" y="826.6" width="234.0" height="60" rx="12" fill="#232027"/>
+<text x="1010.0" y="853.6" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Bad rows go to</text><text x="1010.0" y="871.5" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">etl.rejected_record</text>
+</g>
+<path d="M1254.0 602.3 h22" stroke="#FDBA74" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 5 Quality gate">
+<rect x="1284.0" y="300" width="270.0" height="604.6" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1310.0" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="1336.0" cy="356" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(1319.0 339.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.9-4.3-1.7-7.5-5.3-7.5-9.9V6z"/><path d="M8.8 12.2l2.2 2.2 4.3-4.6"/></g>
+<text x="1528.0" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">05</text>
+<text x="1310.0" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Quality gate</text>
+<text x="1310.0" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#FDBA74" text-anchor="start">dq.check_result</text>
+<text x="1310.0" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">14 checks · 8 critical</text>
+<rect x="1310.0" y="486.1" width="218.0" height="1" fill="#37333C"/>
+<circle cx="1315.0" cy="515.1" r="3.5" fill="#F97316"/>
+<text x="1328.0" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Every ERP row and kilo:</text><text x="1328.0" y="541.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">loaded or rejected</text>
+<circle cx="1315.0" cy="569.7" r="3.5" fill="#F97316"/>
+<text x="1328.0" y="574.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">No fact without its</text><text x="1328.0" y="596.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">plant, farm, product</text>
+<circle cx="1315.0" cy="624.3" r="3.5" fill="#F97316"/>
+<text x="1328.0" y="629.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Failure: run marked</text><text x="1328.0" y="650.6" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">failed, watermarks kept</text>
+<rect x="1302.0" y="826.6" width="234.0" height="60" rx="12" fill="#232027"/>
+<text x="1316.0" y="853.6" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Wrong numbers never reach</text><text x="1316.0" y="871.5" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Qlik</text>
+</g>
+<path d="M1560.0 602.3 h22" stroke="#FDBA74" stroke-width="2.5" marker-end="url(#arrow)"/>
+<g id="Layer 6 Qlik Sense">
+<rect x="1590.0" y="300" width="270.0" height="604.6" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<rect x="1616.0" y="300" width="70" height="3.5" rx="1.75" fill="url(#accent)"/>
+<circle cx="1642.0" cy="356" r="28" fill="#232027" stroke="#C2410C" stroke-width="1.5"/>
+<g transform="translate(1625.0 339.0) scale(1.4167)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></g>
+<text x="1834.0" y="348.0" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="800" fill="#37333C" text-anchor="end">06</text>
+<text x="1616.0" y="418.0" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800" fill="#F4F1F5" text-anchor="start">Qlik Sense</text>
+<text x="1616.0" y="449.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#FDBA74" text-anchor="start">qlik/load_script.qvs</text>
+<text x="1616.0" y="470.5" font-family="Inter, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#B0A9B5" text-anchor="start">QVD layer · link table</text>
+<rect x="1616.0" y="486.1" width="218.0" height="1" fill="#37333C"/>
+<circle cx="1621.0" cy="515.1" r="3.5" fill="#F97316"/>
+<text x="1634.0" y="520.1" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">CSV export with a</text><text x="1634.0" y="541.4" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">SHA-256 manifest</text>
+<circle cx="1621.0" cy="569.7" r="3.5" fill="#F97316"/>
+<text x="1634.0" y="574.7" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">Measures defined once as</text><text x="1634.0" y="596.0" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">variables</text>
+<circle cx="1621.0" cy="624.3" r="3.5" fill="#F97316"/>
+<text x="1634.0" y="629.3" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">4 sheets: overview,</text><text x="1634.0" y="650.6" font-family="Inter, Segoe UI, sans-serif" font-size="15" font-weight="400" fill="#F4F1F5" text-anchor="start">welfare, lines, quality</text>
+<rect x="1608.0" y="826.6" width="234.0" height="60" rx="12" fill="#232027"/>
+<text x="1622.0" y="853.6" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">Operations, suppliers and</text><text x="1622.0" y="871.5" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#B0A9B5" text-anchor="start">quality in one app</text>
+</g>
+<rect x="60" y="944.6" width="888.0" height="450" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<g transform="translate(88.0 970.6) scale(1.2500)" fill="none" stroke="#FDBA74" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16"/></g>
+<text x="130.0" y="994.6" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">Where the code is</text>
+<rect x="88" y="1024.6" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="1024.6" width="5" height="62" rx="2.5" fill="#A3E635"/>
+<text x="108.0" y="1050.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">oracle/ · src/food_dw/seed.py</text>
+<text x="908.0" y="1050.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#A3E635" text-anchor="end">Oracle SQL · Python</text>
+<text x="108.0" y="1073.6" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">ERP schema and 21 months of data with real defects</text>
+<rect x="88" y="1094.6" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="1094.6" width="5" height="62" rx="2.5" fill="#FDBA74"/>
+<text x="108.0" y="1120.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">hop/pipelines · hop/workflows</text>
+<text x="908.0" y="1120.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FDBA74" text-anchor="end">Apache Hop</text>
+<text x="108.0" y="1143.6" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">8 extraction pipelines and the workflow with the release gate</text>
+<rect x="88" y="1164.6" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="1164.6" width="5" height="62" rx="2.5" fill="#FDBA74"/>
+<text x="108.0" y="1190.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">sql/dw · sql/dml</text>
+<text x="908.0" y="1190.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#FDBA74" text-anchor="end">PostgreSQL</text>
+<text x="108.0" y="1213.6" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Schemas, star model, upserts, rejects, quality checks, run control</text>
+<rect x="88" y="1234.6" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="1234.6" width="5" height="62" rx="2.5" fill="#38BDF8"/>
+<text x="108.0" y="1260.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">qlik/</text>
+<text x="908.0" y="1260.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#38BDF8" text-anchor="end">Qlik script</text>
+<text x="108.0" y="1283.6" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">QVD layer, link table, measures and the layout of the 4 sheets</text>
+<rect x="88" y="1304.6" width="832.0" height="62" rx="10" fill="#232027"/>
+<rect x="88" y="1304.6" width="5" height="62" rx="2.5" fill="#34D399"/>
+<text x="108.0" y="1330.6" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1F5" text-anchor="start">tests · .github/workflows</text>
+<text x="908.0" y="1330.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#34D399" text-anchor="end">pytest · CI</text>
+<text x="108.0" y="1353.6" font-family="Inter, Segoe UI, sans-serif" font-size="13.5" font-weight="400" fill="#B0A9B5" text-anchor="start">Real Oracle + PostgreSQL + Hop at every push: 10 integration tests</text>
+<rect x="972.0" y="944.6" width="888.0" height="450" rx="22" fill="#1B191E" stroke="#37333C" stroke-width="1.5"/>
+<g transform="translate(1000.0 970.6) scale(1.2500)" fill="none" stroke="#38BDF8" stroke-width="1.90" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l4.5-5"/><circle cx="12" cy="16" r="1.5"/></g>
+<text x="1042.0" y="994.6" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="800" fill="#F4F1F5" text-anchor="start">What the project proves</text>
+<rect x="1000.0" y="1026.6" width="199.0" height="342" rx="14" fill="#232027"/>
+<rect x="1018.0" y="1026.6" width="44" height="3" rx="1.5" fill="#38BDF8"/>
+<text x="1018.0" y="1090.6" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#38BDF8" text-anchor="start">17,652</text>
+<text x="1018.0" y="1128.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">lots loaded, live</text><text x="1018.0" y="1148.5" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">weight reconciled to</text><text x="1018.0" y="1168.3" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">the cent</text>
+<rect x="1211.0" y="1026.6" width="199.0" height="342" rx="14" fill="#232027"/>
+<rect x="1229.0" y="1026.6" width="44" height="3" rx="1.5" fill="#38BDF8"/>
+<text x="1229.0" y="1090.6" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#38BDF8" text-anchor="start">624</text>
+<text x="1229.0" y="1128.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">bad ERP rows rejected</text><text x="1229.0" y="1148.5" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">with a reason, not</text><text x="1229.0" y="1168.3" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">lost</text>
+<rect x="1422.0" y="1026.6" width="199.0" height="342" rx="14" fill="#232027"/>
+<rect x="1440.0" y="1026.6" width="44" height="3" rx="1.5" fill="#38BDF8"/>
+<text x="1440.0" y="1090.6" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#38BDF8" text-anchor="start">−6 pts</text>
+<text x="1440.0" y="1128.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">Rio Verde line 2</text><text x="1440.0" y="1148.5" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">output vs plan, found</text><text x="1440.0" y="1168.3" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">and dated</text>
+<rect x="1633.0" y="1026.6" width="199.0" height="342" rx="14" fill="#232027"/>
+<rect x="1651.0" y="1026.6" width="44" height="3" rx="1.5" fill="#38BDF8"/>
+<text x="1651.0" y="1090.6" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#38BDF8" text-anchor="start">1.7×</text>
+<text x="1651.0" y="1128.6" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">dead on arrival in</text><text x="1651.0" y="1148.5" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">summer vs the rest of</text><text x="1651.0" y="1168.3" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#B0A9B5" text-anchor="start">the year</text>
+</svg>

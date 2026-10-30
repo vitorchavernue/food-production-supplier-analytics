@@ -1,0 +1,104 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  # Fast feedback, no database: Python style, SQL syntax, the Hop project files and the data rules
+  lint-and-unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Lint Python
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Parse the SQL (Oracle ERP and PostgreSQL warehouse)
+        run: |
+          sqlfluff parse --dialect oracle oracle > /dev/null
+          sqlfluff parse --dialect postgres sql > /dev/null
+      - name: Unit tests (data generator, SQL rules, Hop project consistency)
+        run: pytest -q tests/unit
+
+  # The real thing: Oracle Database Free (ERP) + PostgreSQL (warehouse) + Apache Hop
+  pipeline:
+    needs: lint-and-unit
+    runs-on: ubuntu-latest
+    services:
+      oracle:
+        image: gvenzl/oracle-free:23-slim-faststart
+        env:
+          ORACLE_PASSWORD: CiOnlyPassw0rd   # throwaway containers used only by this job
+          APP_USER: erp
+          APP_USER_PASSWORD: CiOnlyPassw0rd
+        ports: ["1521:1521"]
+        options: >-
+          --health-cmd healthcheck.sh --health-interval 10s --health-timeout 5s --health-retries 30
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_PASSWORD: CiOnlyPassw0rd
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 20
+    env:
+      PYTHONPATH: src
+      ORA_PASSWORD: CiOnlyPassw0rd
+      DW_PASSWORD: CiOnlyPassw0rd
+      HOP_HOME: ${{ github.workspace }}/tools/hop
+      HOP_VERSION: "2.17.0"
+      OJDBC_VERSION: "23.5.0.24.07"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/setup-java@v4  # Apache Hop 2.x runs on Java 17
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Cache Apache Hop and the Oracle JDBC driver
+        id: hop-cache
+        uses: actions/cache@v4
+        with:
+          path: tools/hop
+          key: hop-${{ env.HOP_VERSION }}-ojdbc11-${{ env.OJDBC_VERSION }}
+
+      - name: Install Apache Hop (official Apache release) and the Oracle JDBC driver (Maven Central)
+        if: steps.hop-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p tools
+          curl -fsSL --retry 3 -o /tmp/hop.zip \
+            "https://archive.apache.org/dist/hop/${HOP_VERSION}/apache-hop-client-${HOP_VERSION}.zip"
+          unzip -q /tmp/hop.zip -d tools
+          curl -fsSL --retry 3 -o tools/hop/lib/jdbc/ojdbc11.jar \
+            "https://repo1.maven.org/maven2/com/oracle/database/jdbc/ojdbc11/${OJDBC_VERSION}/ojdbc11-${OJDBC_VERSION}.jar"
+          chmod +x tools/hop/*.sh
+
+      - name: Whole pipeline (first load, exports, incremental, rerun, release gate)
+        run: |
+          set -o pipefail
+          pytest -q -s -rfEs tests/integration 2>&1 | tee pytest.log
+          echo "**Pipeline tests:** $(tail -1 pytest.log)" >> "$GITHUB_STEP_SUMMARY"
+          cat reports/run_*.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Show failures
+        if: failure()
+        run: |
+          grep -E "^(FAILED|ERROR|E  )" pytest.log | head -30 | sed 's/^/::error::/' || true
+          for f in reports/hop_*.log; do
+            grep -iE "error|exception|caused by" "$f" | grep -v "^\s*at " | head -20 | sed "s|^|::error::$(basename $f): |" || true
+          done

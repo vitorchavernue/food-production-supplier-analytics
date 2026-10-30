@@ -1,0 +1,6 @@
+plant_key,plant_code,plant_name,city,state,region,capacity_birds_day
+-1,-1,Unknown,Unknown,??,Unknown,0
+1,1,Unidade Chapecó,Chapecó,SC,South,160000
+2,2,Unidade Toledo,Toledo,PR,South,140000
+3,3,Unidade Rio Verde,Rio Verde,GO,Center-West,150000
+4,4,Unidade Dourados,Dourados,MS,Center-West,120000

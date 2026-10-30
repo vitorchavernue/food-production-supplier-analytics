@@ -1,0 +1,122 @@
+supplier_key,cnpj,legal_name,city,state,plant_code,distance_km,distance_band,integration_start,is_active
+-1,00000000000000,Unknown,Unknown,??,-1,0,Unknown,1900-01-01,0
+1,58813998000123,Fazenda Alvorada EIRELI,Chapecó,SC,1,28,under 30 km,2019-10-01,1
+2,91141707000173,Avícola Esperança ME,Chapecó,SC,1,13,under 30 km,2017-06-01,1
+3,15188447000103,Sítio Alvorada LTDA,Pinhalzinho,SC,1,45,30-60 km,2023-06-01,1
+4,16987168000172,Fazenda Nova Era EIRELI,Concórdia,SC,1,86,60-100 km,2018-10-01,1
+5,88093208000143,Granja Paraíso ME,Concórdia,SC,1,100,over 100 km,2014-08-01,1
+6,77848648000147,Fazenda Nova Era ME,Chapecó,SC,1,11,under 30 km,2016-05-01,1
+7,97875347000110,Fazenda Santo Antônio ME,Xaxim,SC,1,33,30-60 km,2020-11-01,1
+8,57178472000156,Fazenda Bom Jesus Ltda,Seara,SC,1,55,30-60 km,2016-08-01,1
+9,62701079000135,Granja Paraíso Ltda.,Xaxim,SC,1,27,under 30 km,2013-10-01,1
+10,45205997000154,Sítio Cachoeira Ltda.,Pinhalzinho,SC,1,60,60-100 km,2021-03-01,1
+11,41622948000166,Fazenda Nova Era Ltda.,Pinhalzinho,SC,1,61,60-100 km,2015-07-01,1
+12,61055008000140,Fazenda Pinheiros LTDA,Chapecó,SC,1,19,under 30 km,2017-02-01,1
+13,99229836000120,Avícola Água Limpa EIRELI,Concórdia,SC,1,84,60-100 km,2022-12-01,1
+14,03208073000161,Fazenda Boa Vista Ltda.,Concórdia,SC,1,103,over 100 km,2015-09-01,1
+15,22646861000184,Fazenda Vale Verde Ltda.,Xaxim,SC,1,31,30-60 km,2014-05-01,1
+16,47258771000147,Avícola Três Irmãos Ltda.,Concórdia,SC,1,84,60-100 km,2012-02-01,1
+17,68205258000168,Sítio Três Irmãos EIRELI,Seara,SC,1,57,30-60 km,2016-09-01,1
+18,94948214000138,Granja Ouro Verde Ltda.,Xaxim,SC,1,23,under 30 km,2022-01-01,1
+19,18549145000101,Sítio Recanto LTDA,Xaxim,SC,1,22,under 30 km,2012-07-01,1
+20,60013041000144,Granja Cachoeira EIRELI,Seara,SC,1,46,30-60 km,2017-08-01,1
+21,06593976000100,Granja Do Sol EIRELI,Pinhalzinho,SC,1,66,60-100 km,2016-07-01,1
+22,06045414000113,Fazenda Pinheiros EIRELI,Seara,SC,1,35,30-60 km,2020-06-01,1
+23,12911028000160,Avícola Paraíso LTDA,Chapecó,SC,1,5,under 30 km,2018-10-01,1
+24,66363228000154,Granja Cachoeira EIRELI,Concórdia,SC,1,95,60-100 km,2016-03-01,1
+25,48764529000108,Granja Primavera EIRELI,Chapecó,SC,1,6,under 30 km,2022-09-01,1
+26,85003703000126,Sítio Nova Era LTDA,Seara,SC,1,60,60-100 km,2015-09-01,1
+27,35577879000113,Avícola Esperança Ltda.,Seara,SC,1,55,30-60 km,2018-03-01,1
+28,58602145000142,Avícola Bela Vista Ltda,Chapecó,SC,1,5,under 30 km,2020-04-01,1
+29,49066882000187,Granja São José Ltda.,Pinhalzinho,SC,1,68,60-100 km,2018-06-01,1
+30,09324484000107,Avícola Bela Vista ME,Seara,SC,1,41,30-60 km,2023-11-01,1
+31,65828025000123,Sítio Primavera Ltda,Cascavel,PR,2,48,30-60 km,2020-11-01,1
+32,51543829000171,Sítio Bela Vista Ltda,Toledo,PR,2,15,under 30 km,2019-02-01,1
+33,64941577000180,Granja Cachoeira EIRELI,Toledo,PR,2,12,under 30 km,2017-11-01,1
+34,11174432000135,Avícola Ouro Verde EIRELI,Palotina,PR,2,67,60-100 km,2017-06-01,1
+35,65237355000144,Fazenda Alvorada ME,Cascavel,PR,2,51,30-60 km,2014-08-01,1
+36,64515474000159,Sítio Cachoeira LTDA,Marechal Cândido Rondon,PR,2,37,30-60 km,2017-03-01,1
+37,44976608000121,Avícola Ouro Verde LTDA,Toledo,PR,2,8,under 30 km,2022-08-01,1
+38,65506204000144,Avícola Bela Vista LTDA,Marechal Cândido Rondon,PR,2,48,30-60 km,2022-10-01,1
+39,75003145000145,Granja Esperança ME,Cascavel,PR,2,61,60-100 km,2016-10-01,1
+40,83801253000191,Fazenda Esperança EIRELI,Toledo,PR,2,26,under 30 km,2014-12-01,1
+41,89821046000185,Granja Primavera EIRELI,Cascavel,PR,2,68,60-100 km,2020-04-01,1
+42,55559747000176,Avícola Recanto Ltda,Cascavel,PR,2,65,60-100 km,2019-03-01,1
+43,47354864000175,Sítio Alvorada Ltda,Palotina,PR,2,76,60-100 km,2018-02-01,1
+44,79188957000163,Avícola Pinheiros LTDA,Palotina,PR,2,55,30-60 km,2013-09-01,1
+45,48861930000166,Fazenda Santa Rita Ltda.,Marechal Cândido Rondon,PR,2,43,30-60 km,2020-09-01,1
+46,47285568000160,Sítio Bela Vista EIRELI,Marechal Cândido Rondon,PR,2,47,30-60 km,2023-03-01,1
+47,90044224000198,Avícola Bela Vista ME,Marechal Cândido Rondon,PR,2,35,30-60 km,2014-12-01,1
+48,26978043000130,Avícola Cachoeira Ltda,Marechal Cândido Rondon,PR,2,44,30-60 km,2022-12-01,1
+49,28070015000145,Avícola Pinheiros Ltda,Palotina,PR,2,55,30-60 km,2020-04-01,1
+50,66323373000101,Avícola Primavera EIRELI,Toledo,PR,2,18,under 30 km,2023-07-01,1
+51,34789713000106,Sítio Três Irmãos Ltda,Palotina,PR,2,61,60-100 km,2023-11-01,1
+52,12363608000160,Sítio Recanto LTDA,Marechal Cândido Rondon,PR,2,53,30-60 km,2017-07-01,1
+53,45721283000107,Avícola Água Limpa ME,Cascavel,PR,2,64,60-100 km,2022-10-01,1
+54,41775888000111,Granja Recanto LTDA,Palotina,PR,2,51,30-60 km,2013-10-01,1
+55,91697978000100,Granja Bela Vista LTDA,Cascavel,PR,2,49,30-60 km,2012-02-01,1
+56,84001981000181,Avícola Bela Vista LTDA,Marechal Cândido Rondon,PR,2,45,30-60 km,2015-06-01,1
+57,36385607000184,Sítio Paraíso Ltda.,Cascavel,PR,2,59,30-60 km,2015-02-01,1
+58,78073608000133,Fazenda Bela Vista LTDA,Cascavel,PR,2,52,30-60 km,2020-06-01,1
+59,90598281000119,Avícola Esperança EIRELI,Cascavel,PR,2,47,30-60 km,2020-03-01,1
+60,16603304000183,Sítio Santo Antônio LTDA,Toledo,PR,2,16,under 30 km,2013-05-01,1
+61,38178057000158,Granja Esperança ME,Rio Verde,GO,3,6,under 30 km,2016-02-01,1
+62,43049074000125,Granja Cachoeira Ltda.,Rio Verde,GO,3,22,under 30 km,2022-09-01,1
+63,70853867000175,Granja Santa Rita Ltda,Montividiu,GO,3,40,30-60 km,2018-07-01,1
+64,92232838000129,Avícola Nova Era LTDA,Jataí,GO,3,131,over 100 km,2022-03-01,1
+65,51298372000187,Avícola Primavera ME,Rio Verde,GO,3,22,under 30 km,2013-03-01,1
+66,17695851000107,Granja Recanto Ltda.,Jataí,GO,3,97,60-100 km,2018-04-01,1
+67,48005279000122,Granja Santa Rita ME,Montividiu,GO,3,64,60-100 km,2014-10-01,1
+68,11209842000174,Fazenda Recanto Ltda,Jataí,GO,3,118,over 100 km,2021-05-01,1
+69,07911357000170,Granja Nova Era LTDA,Jataí,GO,3,118,over 100 km,2019-12-01,1
+70,47967452000100,Granja Paraíso EIRELI,Santa Helena de Goiás,GO,3,35,30-60 km,2015-04-01,1
+71,63521362000148,Avícola Cachoeira ME,Santa Helena de Goiás,GO,3,41,30-60 km,2021-09-01,1
+72,45732840000187,Sítio Vale Verde Ltda.,Jataí,GO,3,117,over 100 km,2022-10-01,1
+73,70940985000110,Avícola Ouro Verde Ltda.,Jataí,GO,3,134,over 100 km,2022-09-01,1
+74,98556830000102,Fazenda Santo Antônio ME,Santa Helena de Goiás,GO,3,47,30-60 km,2021-06-01,1
+75,89650133000117,Sítio Bom Jesus EIRELI,Montividiu,GO,3,52,30-60 km,2019-03-01,1
+76,50811136000150,Granja Água Limpa EIRELI,Montividiu,GO,3,51,30-60 km,2022-09-01,1
+77,63540115000199,Sítio Água Limpa ME,Rio Verde,GO,3,8,under 30 km,2022-02-01,1
+78,87592115000109,Sítio Bela Vista ME,Montividiu,GO,3,54,30-60 km,2013-09-01,1
+79,21076177000141,Granja Água Limpa ME,Jataí,GO,3,112,over 100 km,2023-02-01,1
+80,26148836000121,Granja Do Sol Ltda.,Jataí,GO,3,90,60-100 km,2014-10-01,1
+81,46135161000193,Avícola Pinheiros ME,Santa Helena de Goiás,GO,3,54,30-60 km,2021-05-01,1
+82,86408948000104,Fazenda Vale Verde ME,Montividiu,GO,3,63,60-100 km,2016-04-01,1
+83,25844419000150,Sítio Boa Vista Ltda.,Jataí,GO,3,128,over 100 km,2021-06-01,1
+84,56697961000151,Avícola Ouro Verde ME,Rio Verde,GO,3,23,under 30 km,2017-10-01,1
+85,56547056000115,Fazenda Santa Clara EIRELI,Rio Verde,GO,3,5,under 30 km,2023-05-01,1
+86,15646440000198,Sítio Esperança Ltda,Rio Verde,GO,3,7,under 30 km,2015-03-01,1
+87,98719889000166,Granja Vale Verde Ltda.,Santa Helena de Goiás,GO,3,38,30-60 km,2018-04-01,1
+88,11960278000127,Granja Vale Verde ME,Rio Verde,GO,3,34,30-60 km,2017-09-01,1
+89,30642482000144,Fazenda Santa Clara Ltda,Jataí,GO,3,119,over 100 km,2021-07-01,1
+90,20412634000169,Fazenda Santo Antônio EIRELI,Jataí,GO,3,99,60-100 km,2015-06-01,1
+91,01376156000134,Granja Boa Vista LTDA,Ponta Porã,MS,4,118,over 100 km,2022-02-01,1
+92,35414881000171,Granja Santa Rita ME,Itaporã,MS,4,32,30-60 km,2017-03-01,1
+93,84164975000145,Sítio Esperança Ltda.,Itaporã,MS,4,26,under 30 km,2019-02-01,1
+94,94808534000192,Fazenda Santa Clara LTDA,Itaporã,MS,4,19,under 30 km,2016-08-01,1
+95,34146175000123,Avícola Vale Verde Ltda.,Dourados,MS,4,27,under 30 km,2012-02-01,1
+96,13380053000127,Granja Pinheiros Ltda,Rio Brilhante,MS,4,58,30-60 km,2019-09-01,1
+97,89305977000120,Fazenda Santa Clara LTDA,Ponta Porã,MS,4,127,over 100 km,2017-04-01,1
+98,88568106000137,Fazenda Santa Clara EIRELI,Ponta Porã,MS,4,101,over 100 km,2019-03-01,1
+99,61514136000104,Sítio Esperança LTDA,Rio Brilhante,MS,4,56,30-60 km,2019-11-01,1
+100,87526239000188,Avícola Primavera LTDA,Dourados,MS,4,29,under 30 km,2018-05-01,1
+101,86316653000108,Fazenda Recanto LTDA,Rio Brilhante,MS,4,72,60-100 km,2015-12-01,1
+102,81342172000145,Sítio Santa Rita LTDA,Ponta Porã,MS,4,119,over 100 km,2018-08-01,1
+103,44104751000123,Fazenda Santo Antônio EIRELI,Dourados,MS,4,18,under 30 km,2023-06-01,1
+104,41082359000132,Avícola Santa Rita LTDA,Dourados,MS,4,24,under 30 km,2022-05-01,1
+105,29474781000138,Sítio Recanto LTDA,Ponta Porã,MS,4,112,over 100 km,2012-03-01,1
+106,95680801000151,Granja Boa Vista Ltda,Dourados,MS,4,25,under 30 km,2017-11-01,1
+107,70091703000158,Sítio Bom Jesus Ltda.,Dourados,MS,4,12,under 30 km,2012-06-01,1
+108,04887781000139,Fazenda Nova Era Ltda,Itaporã,MS,4,18,under 30 km,2016-07-01,1
+109,10203830000170,Granja Vale Verde Ltda,Dourados,MS,4,25,under 30 km,2015-01-01,1
+110,26371671000152,Avícola Do Sol Ltda.,Ponta Porã,MS,4,126,over 100 km,2021-04-01,1
+111,26708129000142,Fazenda Bom Jesus Ltda,Dourados,MS,4,15,under 30 km,2019-10-01,1
+112,39813370000183,Sítio Bom Jesus Ltda,Itaporã,MS,4,31,30-60 km,2018-02-01,1
+113,29991470000146,Fazenda Bom Jesus LTDA,Dourados,MS,4,15,under 30 km,2016-09-01,1
+114,66351676000138,Sítio Pinheiros EIRELI,Dourados,MS,4,19,under 30 km,2015-05-01,1
+115,24172643000180,Fazenda Nova Era Ltda.,Dourados,MS,4,21,under 30 km,2014-10-01,1
+116,08242204000140,Sítio Nova Era Ltda.,Itaporã,MS,4,31,30-60 km,2015-08-01,1
+117,95060188000170,Fazenda Boa Vista LTDA,Dourados,MS,4,8,under 30 km,2017-02-01,1
+118,13325269000190,Avícola Ouro Verde Ltda.,Dourados,MS,4,25,under 30 km,2019-09-01,1
+119,76082196000172,Granja Primavera Ltda,Itaporã,MS,4,21,under 30 km,2020-06-01,1
+120,00223869000103,Fazenda Paraíso LTDA,Rio Brilhante,MS,4,56,30-60 km,2016-04-01,1

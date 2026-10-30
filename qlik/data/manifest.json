@@ -1,0 +1,12 @@
+{
+  "check_result.csv": "c05e4c1a7b181a414aa3e909f6ec36b2360ff52506ec39d968c246c2a15d62c8",
+  "dim_date.csv": "f11c23eaa34281a3cb8818d0b6e9b05f2294b8d93e21b4a05323b51a6239ab71",
+  "dim_plant.csv": "d4e05318a129a1c010f2a1b189d2c6425054690526f6947e429e541519f952a7",
+  "dim_product.csv": "3e9fa33dbe2e5eaafd52639cbf6cc14af6b1423932d1d286d8be891bdd5540d0",
+  "dim_supplier.csv": "273139878e1808041de5683f4077c0b3bc2392bee27479011064097978e5952a",
+  "fact_line_stop.csv": "c7f989fd956a66fd63f0c60c8b45191e83f3db2ae5d7831bfc29a59d3831d6a1",
+  "fact_lot_receipt.csv": "905f7f5e4cdf32d31959869c34923ea2d3a77ba0ad84d97c31d44a25d3cf0544",
+  "fact_production.csv": "5a67c667cbdf0815e0eabf5ba77f8b1a1a20aad1709387c42bcffe0103f356bb",
+  "fact_quality_inspection.csv": "a564be5676ccec8fa33c13b78236f6da25068d08848c95dd4e790aa42e72ef55",
+  "rejected_record.csv": "28eacded90166679b2a396b8a46531fb0bcf2236e9b3d08384ef4ce9d691a2ca"
+}
